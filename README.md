@@ -7,6 +7,6 @@ The list consisted of newline-delimited strings and comments which preceded with
 
 Even multi-billion dollar companies with infinite automated testing can't find every bad input. For example, look at what happens when you try to Tweet a zero-width space (U+200B):
 
-![](http://i.imgur.com/AihSKMM.gif)
+![](http://i.imgur.com/HyDg2eV.gif)
 
 Although this is not a malicious error, an "internal server error" for unexpected input may be a symptom for deeper string-validation issues, wh
