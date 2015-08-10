@@ -9,6 +9,7 @@ null
 #
 #	Strings which can be interpreted as numeric
 
+0
 1
 1.00
 $1.00
