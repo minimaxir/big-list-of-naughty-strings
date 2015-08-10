@@ -11,7 +11,7 @@ Although this is not a malicious error, and typical users aren't Tweeting weird 
 
 ## Usage
 
-`blns.txt` consists of newline-delimited strings and comments which preceded with `#`. The comments divide the strings into sections for easy manual reading and copy/pasting into input forms. For those who want to access the strings programmically, a `blns.json` file is provided containing an array with all the comments striped out. (the `scripts` folder contains a Python script used to generate the `blns.json`)
+`blns.txt` consists of newline-delimited strings and comments which are preceded with `#`. The comments divide the strings into sections for easy manual reading and copy/pasting into input forms. For those who want to access the strings programmatically, a `blns.json` file is provided containing an array with all the comments stripped out (the `scripts` folder contains a Python script used to generate the `blns.json`).
 
 ## Contributions
 
