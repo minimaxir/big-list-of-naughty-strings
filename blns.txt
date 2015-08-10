@@ -169,6 +169,7 @@ Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮
 
 <script>alert('hi')</script>
 <img src=x onerror=alert('hi') />
+<svg><script>0<1>alert('XSS')</script> 
 
 #	SQL Injection
 #
@@ -182,3 +183,10 @@ Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮
 #	Strings which can cause user to run code on server as a privileged user (c.f. https://news.ycombinator.com/item?id=7665153)
 
 /dev/null; rm -rf /*; echo
+
+#	File Inclusion
+#
+#	Strings which can cause user to pull in files that should not be a part of a web server
+
+../../../../../../../../../../../etc/passwd%00
+../../../../../../../../../../../etc/hosts

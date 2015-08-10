@@ -91,7 +91,10 @@
   "00˙Ɩ$-", 
   "<script>alert('hi')</script>", 
   "<img src=x onerror=alert('hi') />", 
+  "<svg><script>0<1>alert('XSS')</script>",
   "1;DROP TABLE users", 
   "1'; DROP TABLE users--", 
-  "/dev/null; rm -rf /*; echo"
+  "/dev/null; rm -rf /*; echo",
+  "../../../../../../../../../../../etc/passwd%00",
+  "../../../../../../../../../../../etc/hosts"
 ]
