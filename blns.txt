@@ -184,7 +184,6 @@ Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮
 "><script>alert(document.title)</script>
 ><script>alert(document.title)</script>
 '><script>alert(document.title)</script>
-"><script>alert(document.title)</script>
 
 #	SQL Injection
 #
