@@ -26,6 +26,11 @@ $1.00
 1/0
 0/0
 0.00
+0.0/0
+1.0/0.0
+0.0/0.0
+1,0/0,0
+0,0/0,0
 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
 
 #	Special Characters
@@ -197,3 +202,19 @@ Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮
 #	Strings that test for known vulnerabilities.
 () { 0; }; touch /tmp/blns.shellshock1.fail;
 () { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }
+
+# MSDOS/Windows Special Filenames
+CON
+PRN
+AUX
+CLOCK$
+NUL
+A:
+ZZ:
+COM1
+LPT1
+LPT2
+LPT3
+COM2
+COM3
+COM4
