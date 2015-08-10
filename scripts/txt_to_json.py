@@ -14,7 +14,10 @@ with open('../blns.txt', 'r') as f:
     
     # remove empty-lines and comments
     content = [x for x in content if x and not x.startswith('#')]
-    
+
+    # Add the empty string
+    content.insert(0, "")
+
 with open('../blns.json', 'wb') as f:
 
 	# write JSON to file; note the ensure_ascii parameter
