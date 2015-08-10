@@ -182,7 +182,7 @@ Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮
 #
 #	Strings which can cause user to run code on server as a privileged user (c.f. https://news.ycombinator.com/item?id=7665153)
 
-/dev/null; rm -rf /*; echo
+/dev/null; touch /tmp/blns.fail ; echo
 
 #	File Inclusion
 #
