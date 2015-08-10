@@ -190,3 +190,9 @@ Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮
 
 ../../../../../../../../../../../etc/passwd%00
 ../../../../../../../../../../../etc/hosts
+
+#	Known CVEs and Vulnerabilities
+#
+#	Strings that test for known vulnerabilities.
+() { 0; }; touch /tmp/blns.shellshock1.fail;
+() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }

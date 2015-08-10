@@ -96,5 +96,7 @@
   "1'; DROP TABLE users--", 
   "/dev/null; touch /tmp/blns.fail ; echo",
   "../../../../../../../../../../../etc/passwd%00",
-  "../../../../../../../../../../../etc/hosts"
+  "../../../../../../../../../../../etc/hosts",
+  "() { 0; }; touch /tmp/blns.shellshock1.fail;",
+  "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }"
 ]
