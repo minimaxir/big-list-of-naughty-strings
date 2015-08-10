@@ -26,7 +26,17 @@ $1.00
 1/0
 0/0
 0.00
+0..0
+.
+0.0.0
+0,00
+0,,0
+,
+0,0,0
 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+NaN
+Infinity
+-Infinity
 
 #	Special Characters
 #
@@ -34,7 +44,7 @@ $1.00
 
 ,./;'[]\-=
 <>?:"{}|_+
-!@#$%^&*()
+!@#$%^&*()`
 
 #	Unicode Symbols
 #
@@ -171,6 +181,9 @@ Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮
 <script>alert('hi')</script>
 <img src=x onerror=alert('hi') />
 <svg><script>0<1>alert('XSS')</script> 
+"><script>alert(document.title)</script>
+><script>alert(document.title)</script>
+'><script>alert(document.title)</script>
 
 #	SQL Injection
 #
