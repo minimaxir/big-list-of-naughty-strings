@@ -4,6 +4,9 @@
 
 undefined
 null
+NULL
+nil
+NIL
 
 #	Numeric Strings
 #
