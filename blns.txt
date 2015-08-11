@@ -237,5 +237,6 @@ Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮
 
 # iOS Vulnerability
 #
-# Strings that crash certain apps
+# Strings that are crashing certain apps (http://www.macrumors.com/2015/05/26/ios-bug-crashing-iphones-with-text-message/)
+
 Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
