@@ -194,6 +194,7 @@ Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮
  onfocus=alert(document.title) autofocus 
 " onfocus=alert(document.title) autofocus 
 ' onfocus=alert(document.title) autofocus 
+＜script＞alert(document.title)＜/script＞
 
 #	SQL Injection
 #
