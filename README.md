@@ -20,3 +20,7 @@ Feel free to send a pull request to add more strings, or additional sections. Ho
 ## Disclaimer
 
 The Big List of Naughty Strings is intended to be used *for software you own and manage*. Some of the Naughty Strings can indicate security vulnerabilies, and as a result using such strings with third-party software may be a crime. The maintainer is not responsible for any negative actions that result from the use of the list.
+
+## Maintainer
+
+* Max Woolf ([@minimaxir](https://twitter.com/minimaxir))
