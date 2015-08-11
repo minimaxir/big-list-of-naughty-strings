@@ -183,8 +183,8 @@ Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮
 #
 #	Strings which attempt to invoke a benign script injection; shows vulnerability to XSS
 
-<script>alert('hi')</script>
-<img src=x onerror=alert('hi') />
+<script>alert('XSS')</script>
+<img src=x onerror=alert('XSS') />
 <svg><script>0<1>alert('XSS')</script> 
 "><script>alert(document.title)</script>
 '><script>alert(document.title)</script>
@@ -219,6 +219,7 @@ Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮
 
 #	Known CVEs and Vulnerabilities
 #
-#	Strings that test for known vulnerabilities.
+#	Strings that test for known vulnerabilities
+
 () { 0; }; touch /tmp/blns.shellshock1.fail;
 () { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }
