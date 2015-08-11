@@ -6,7 +6,7 @@ import json
 
 with open('../blns.txt', 'r') as f:
 
-	# put all lines in the file into a Python list
+    # put all lines in the file into a Python list
     content = f.readlines()
     
     # above line leaves trailing newline characters; strip them out
