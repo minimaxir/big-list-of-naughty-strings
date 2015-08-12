@@ -1,2 +1,2 @@
 *.gitattributes text
-*.txt set diff
+*.txt text
