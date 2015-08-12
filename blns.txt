@@ -215,25 +215,25 @@ Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮
 #
 #	Strings which attempt to invoke a benign script injection; shows vulnerability to XSS
 
-<script>alert('XSS')</script>
-<img src=x onerror=alert('XSS') />
-<svg><script>0<1>alert('XSS')</script> 
-"><script>alert(document.title)</script>
-'><script>alert(document.title)</script>
-><script>alert(document.title)</script>
-</script><script>alert(document.title)</script>
-< / script >< script >alert(document.title)< / script >
- onfocus=alert(document.title) autofocus 
-" onfocus=alert(document.title) autofocus 
-' onfocus=alert(document.title) autofocus 
-＜script＞alert(document.title)＜/script＞
-<sc<script>ript>alert('XSS')</sc</script>ript>
---><script>alert(0)</script>
-";alert(0);t="
-';alert(0);t='
-JavaSCript:alert(0)
-;alert(0);
-src=JaVaSCript:prompt(9)
+<script>alert(123)</script>
+<img src=x onerror=alert(123) />
+<svg><script>123<1>alert(123)</script> 
+"><script>alert(123)</script>
+'><script>alert(123)</script>
+><script>alert(123)</script>
+</script><script>alert(123)</script>
+< / script >< script >alert(123)< / script >
+ onfocus=JaVaSCript:alert(123) autofocus 
+" onfocus=JaVaSCript:alert(123) autofocus 
+' onfocus=JaVaSCript:alert(123) autofocus 
+＜script＞alert(123)＜/script＞
+<sc<script>ript>alert(123)</sc</script>ript>
+--><script>alert(123)</script>
+";alert(123);t="
+';alert(123);t='
+JavaSCript:alert(123)
+;alert(123);
+src=JaVaSCript:prompt(132)
 
 #	SQL Injection
 #
