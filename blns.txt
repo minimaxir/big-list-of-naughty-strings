@@ -234,6 +234,11 @@ Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮
 JavaSCript:alert(123)
 ;alert(123);
 src=JaVaSCript:prompt(132)
+"><script>alert(123);</script x="
+'><script>alert(123);</script x='
+><script>alert(123);</script x=
+" autofocus onkeyup="javascript:alert(123)
+' autofocus onkeyup='javascript:alert(123)
 
 #	SQL Injection
 #
