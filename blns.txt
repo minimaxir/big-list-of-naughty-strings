@@ -249,6 +249,17 @@ $USER
 $(touch /tmp/blns.fail)
 @{[system "touch /tmp/blns.fail"]}
 
+#	Command Injection (Ruby)
+#
+#	Strings which can call system commands within Ruby/Rails applications
+
+eval("puts 'hello world'")
+System("ls -al /")
+`ls -al /`
+Kernel.exec("ls -al /")
+Kernel.exit(1)
+%x('ls -al /')
+
 #	Unwanted Interpolation
 #
 #	Strings which can be accidentally expanded into different strings if evaluated in the wrong context, e.g. used as a printf format string or via Perl or shell eval. Might expose sensitive data from the program doing the interpolation, or might just represent the wrong string.
