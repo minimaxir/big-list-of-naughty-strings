@@ -17,6 +17,8 @@ Although this is not a malicious error, and typical users aren't Tweeting weird 
 
 Feel free to send a pull request to add more strings, or additional sections. However, please do not send pull requests with very-long strings (255+ characters), as that makes the list much more difficult to view.
 
+Likewise, please do not send pull requests which compromise *manual usability of the file*. This includes the [EICAR test string](https://en.wikipedia.org/wiki/EICAR_test_file), which can cause the file to be flagged by antivirus scanners, and files which alter the encoding of `blns.txt`.
+
 ## Disclaimer
 
 The Big List of Naughty Strings is intended to be used *for software you own and manage*. Some of the Naughty Strings can indicate security vulnerabilies, and as a result using such strings with third-party software may be a crime. The maintainer is not responsible for any negative actions that result from the use of the list.

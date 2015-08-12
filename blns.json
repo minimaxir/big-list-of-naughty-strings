@@ -1,6 +1,7 @@
 [
   "", 
   "undefined", 
+  "undef",
   "null", 
   "NULL", 
   "nil", 
