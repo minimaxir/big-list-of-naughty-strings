@@ -1,0 +1,13 @@
+{
+  "name": "big-list-of-naughty-strings",
+  "version": "1.0.0",
+  "description": "The Big List of Naughty Strings is a list of strings which have a high probability of causing issues when used as user-input data",
+  "author": "Max Woolf <max@minimaxir.com>",
+  "main": "blns.json",
+  "repository": "git+https://github.com/minimaxir/big-list-of-naughty-strings.git",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/minimaxir/big-list-of-naughty-strings/issues"
+  },
+  "homepage": "https://github.com/minimaxir/big-list-of-naughty-strings#readme"
+}
