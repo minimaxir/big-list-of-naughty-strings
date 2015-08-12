@@ -315,3 +315,9 @@ If you're reading this, you've been in coma for almost 20 years now. We're tryin
 
 Roses are [0;31mred[0m, violets are [0;34mblue. Hope you enjoy terminal hue
 But now...[20Cfor my greatest trick...[8m
+
+#	iOS Vulnerability
+#
+#	Strings which crashed iMessage in iOS versions 8.3 and earlier
+
+Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
