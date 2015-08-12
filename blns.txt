@@ -245,6 +245,19 @@ Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮
 --help
 $USER
 /dev/null; touch /tmp/blns.fail ; echo
+`touch /tmp/blns.fail`
+$(touch /tmp/blns.fail)
+@{[system "touch /tmp/blns.fail"]}
+
+#	Unwanted Interpolation
+#
+#	Strings which can be accidentally expanded into different strings if evaluated in the wrong context, e.g. used as a printf format string or via Perl or shell eval. Might expose sensitive data from the program doing the interpolation, or might just represent the wrong string.
+
+$HOME
+$ENV{'HOME'}
+%d
+%s
+%*.*s
 
 #	File Inclusion
 #
