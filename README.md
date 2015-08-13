@@ -21,7 +21,7 @@ Likewise, please do not send pull requests which compromise *manual usability of
 
 ## Disclaimer
 
-The Big List of Naughty Strings is intended to be used *for software you own and manage*. Some of the Naughty Strings can indicate security vulnerabilies, and as a result using such strings with third-party software may be a crime. The maintainer is not responsible for any negative actions that result from the use of the list.
+The Big List of Naughty Strings is intended to be used *for software you own and manage*. Some of the Naughty Strings can indicate security vulnerabilities, and as a result using such strings with third-party software may be a crime. The maintainer is not responsible for any negative actions that result from the use of the list.
 
 ## Maintainer
 
