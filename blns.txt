@@ -13,6 +13,8 @@ false
 True
 False
 None
+\
+\\
 
 #	Numeric Strings
 #
