@@ -1,0 +1,347 @@
+# Reserved Strings
+#
+# Strings which may be used elsewhere in code
+
+dW5kZWZpbmVkCg==
+dW5kZWYK
+bnVsbAo=
+TlVMTAo=
+bmlsCg==
+TklMCg==
+dHJ1ZQo=
+ZmFsc2UK
+VHJ1ZQo=
+RmFsc2UK
+Tm9uZQo=
+XAo=
+
+# Numeric Strings
+#
+# Strings which can be interpreted as numeric
+
+MAo=
+MQo=
+MS4wMAo=
+JDEuMDAK
+MS8yCg==
+MUUyCg==
+MUUwMgo=
+MUUrMDIK
+LTEK
+LTEuMDAK
+LSQxLjAwCg==
+LTEvMgo=
+LTFFMgo=
+LTFFMDIK
+LTFFKzAyCg==
+MS8wCg==
+MC8wCg==
+MC4wMAo=
+MC4uMAo=
+Lgo=
+MC4wLjAK
+MCwwMAo=
+MCwsMAo=
+LAo=
+MCwwLDAK
+MC4wLzAK
+MS4wLzAuMAo=
+MC4wLzAuMAo=
+MSwwLzAsMAo=
+MCwwLzAsMAo=
+LS0xCg==
+LQo=
+LS4K
+LSwK
+OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5Cg==
+TmFOCg==
+SW5maW5pdHkK
+LUluZmluaXR5Cg==
+MHgwCg==
+MHhmZmZmZmZmZgo=
+MHhmZmZmZmZmZmZmZmZmZmZmCg==
+MHhhYmFkMWRlYQo=
+MTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTIzNDU2Nzg5Cg==
+
+# Special Characters
+#
+# Strings which contain common special ASCII characters (may need to be escaped)
+
+LC4vOydbXS09Cg==
+PD4/OiJ7fXxfKwo=
+IUAjJCVeJiooKWAK
+
+# Unicode Symbols
+#
+# Strings which contain common unicode symbols (e.g. smart quotes)
+
+zqniiYjDp+KImuKIq8ucwrXiiaTiiaXDtwo=
+w6XDn+KIgsaSwqnLmeKIhsuawqzigKbDpgo=
+xZPiiJHCtMKu4oCgwqXCqMuGw7jPgOKAnOKAmAo=
+wqHihKLCo8Ki4oiewqfCtuKAosKqwrrigJPiiaAK
+wrjLm8OH4peKxLHLnMOCwq/LmMK/Cg==
+w4XDjcOOw4/LncOTw5Tvo7/DksOaw4bimIMK
+xZLigJ7CtOKAsMuHw4HCqMuGw5jiiI/igJ3igJkK
+YOKBhOKCrOKAueKAuu+sge+sguKAocKwwrfigJrigJTCsQo=
+4oWb4oWc4oWd4oWeCg==
+0IHQgtCD0ITQhdCG0IfQiNCJ0IrQi9CM0I3QjtCP0JDQkdCS0JPQlNCV0JbQl9CY0JnQmtCb0JzQndCe0J/QoNCh0KLQo9Ck0KXQptCn0KjQqdCq0KvQrNCt0K7Qr9Cw0LHQstCz0LTQtdC20LfQuNC50LrQu9C80L3QvtC/0YDRgdGC0YPRhNGF0YbRh9GI0YnRitGL0YzRjdGO0Y8K
+2aDZodmi2aPZpNml2abZp9mo2akK
+
+# Unicode Subscript/Superscript
+#
+# Strings which contain unicode subscripts/superscripts; can cause rendering issues
+
+4oGw4oG04oG1Cg==
+4oKA4oKB4oKCCg==
+4oGw4oG04oG14oKA4oKB4oKCCg==
+
+# Quotation Marks
+#
+# Strings which contain misplaced quotation marks; can cause encoding errors
+
+Jwo=
+Igo=
+JycK
+IiIK
+JyInCg==
+IicnJyciJyIK
+IiciJyInJycnIgo=
+
+# Two-Byte Characters
+#
+# Strings which contain two-byte characters: can cause rendering issues or character-length issues
+
+55Sw5Lit44GV44KT44Gr44GC44GS44Gm5LiL44GV44GECg==
+44OR44O844OG44Kj44O844G46KGM44GL44Gq44GE44GLCg==
+5ZKM6KO95ryi6KqeCg==
+6YOo6JC95qC8Cg==
+7IKs7ZqM6rO87ZWZ7JuQIOyWtO2VmeyXsOq1rOyGjAo=
+7LCm7LCo66W8IO2DgOqzoCDsmKgg7Y6y7Iuc66eo6rO8IOyRm+uLpOumrCDrmKDrsKnqsIHtlZgK
+56S+5pyD56eR5a246Zmi6Kqe5a2456CU56m25omACg==
+7Jq4656A67CU7Yag66W0Cg==
+8KCcjvCgnLHwoJ258KCxk/CgsbjwoLKW8KCzjwo=
+
+# Japanese Emoticons
+#
+# Strings which consists of Japanese-style emoticons which are popular on the web
+
+44O94Ly84LqI2YTNnOC6iOC8ve++iSDjg73gvLzguojZhM2c4LqI4Ly9776JCg==
+KO+9oeKXlSDiiIAg4peV772hKQo=
+772A772oKMK04oiA772A4oipCg==
+X1/vvpsoLF8sKikK
+44O7KO+/o+KIgO+/oynjg7s6KjoK
+776f772l4py/44O+4pWyKO+9oeKXleKAv+KXle+9oSnilbHinL/vvaXvvp8K
+LOOAguODuzoqOuODu+OCnOKAmSgg4pi7IM+JIOKYuyAp44CC44O7Oio644O744Kc4oCZCg==
+KOKVr8Kw4pahwrDvvInila/vuLUg4pS74pSB4pS7KQo=
+KO++ieCypeebiuCype+8ie++ie+7vyDilLvilIHilLsK
+
+# Emoji
+#
+# Strings which contain Emoji; should be the same behavior as two-byte characters, but not always
+
+8J+YjQo=
+8J+RqfCfj70K
+8J+RviDwn5mHIPCfkoEg8J+ZhSDwn5mGIPCfmYsg8J+ZjiDwn5mNCg==
+8J+QtSDwn5mIIPCfmYkg8J+Zigo=
+4p2k77iPIPCfkpQg8J+SjCDwn5KVIPCfkp4g8J+SkyDwn5KXIPCfkpYg8J+SmCDwn5KdIPCfkp8g8J+SnCDwn5KbIPCfkpog8J+SmQo=
+4pyL8J+PvyDwn5Kq8J+PvyDwn5GQ8J+PvyDwn5mM8J+PvyDwn5GP8J+PvyDwn5mP8J+Pvwo=
+8J+aviDwn4aSIPCfhpMg8J+GlSDwn4aWIPCfhpcg8J+GmSDwn4+nCg==
+MO+4j+KDoyAx77iP4oOjIDLvuI/ig6MgM++4j+KDoyA077iP4oOjIDXvuI/ig6MgNu+4j+KDoyA377iP4oOjIDjvuI/ig6MgOe+4j+KDoyDwn5SfCg==
+
+# Unicode Numbers
+#
+# Strings which contain unicode numbers; if the code is localized, it should see the input as numeric
+
+77yR77yS77yTCg==
+2aHZotmjCg==
+
+# Right-To-Left Strings
+#
+# Strings which contain text that should be rendered RTL if possible (e.g. Arabic, Hebrew)
+
+2KvZhSDZhtmB2LMg2LPZgti32Kog2YjYqNin2YTYqtit2K/Zitiv2IwsINis2LLZitix2KrZiiDYqNin2LPYqtiu2K/Yp9mFINij2YYg2K/ZhtmILiDYpdiwINmH2YbYp9ifINin2YTYs9iq2KfYsSDZiNiq2YbYtdmK2Kgg2YPYp9mGLiDYo9mH2ZHZhCDYp9mK2LfYp9mE2YrYp9iMINio2LHZiti32KfZhtmK2Kct2YHYsdmG2LPYpyDZgtivINij2K7YsC4g2LPZhNmK2YXYp9mG2Iwg2KXYqtmB2KfZgtmK2Kkg2KjZitmGINmF2KcsINmK2LDZg9ixINin2YTYrdiv2YjYryDYo9mKINio2LnYrywg2YXYudin2YXZhNipINio2YjZhNmG2K/Yp9iMINin2YTYpdi32YTYp9mCINi52YQg2KXZitmILgo=
+15HWvNaw16jWtdeQ16nXgda015nXqiwg15HWvNa416jWuNeQINeQ1rHXnNa515TWtNeZ150sINeQ1rXXqiDXlNa316nWvNeB1rjXnta315nWtNedLCDXldaw15DWtdeqINeU1rjXkNa416jWttelCg==
+15TWuNeZ1rDXqta415R0ZXN02KfZhNi12YHYrdin2Kog2KfZhNiq2ZHYrdmI2YQK
+
+# Unicode Spaces
+#
+# Strings which contain unicode space characters with special properties (c.f. https://www.cs.tut.fi/~jkorpela/chars/spaces.html)
+
+4oCLCg==
+4ZqACg==
+4aCOCg==
+44CACg==
+77u/Cg==
+4pCjCg==
+4pCiCg==
+4pChCg==
+
+# Trick Unicode
+#
+# Strings which contain unicode with unusual properties (e.g. Right-to-left override) (c.f. http://www.unicode.org/charts/PDF/U2000.pdf)
+
+4oCq4oCqdGVzdOKAqgo=
+4oCrdGVzdOKAqwo=
+4oCpdGVzdOKAqQo=
+dGVzdOKBoHRlc3TigKsK
+4oGmdGVzdOKBpwo=
+
+# Zalgo Text
+#
+# Strings which contain "corrupted" text. The corruption will not appear in non-HTML text, however. (via http://www.eeemo.net)
+
+VMyVzK3Musy6b82eIMy3acyyzKzNh8yqzZluzJ3Ml82Vds2fzJ/MnMyYzKZvzLbMmcywzKBrZc2AzZrMrsy6zKrMucyxzKQgzJZ0zZ7Mnc2VzLPMo8y7zKpozLzNk8yyzKbMs8yYzLJlzYfMo8ywzKbMrM2OIMyizLzMu8yxzJhozYXNms2OzZnMnMyjzLJpzKbMssyjzLDMpHbMu82NZcy6zK3Ms8yqzLAtbcyiac2FbsyWzLrMnsyyzK/MsGTMtcy8zJ/NmcypzLzMmMyzIMyezKXMscyzzK1yzJvMl8yYZc2ZcM2gcsy8zJ7Mu8ytzJdlzZ/MusygzKNzzJjNh8yzzY3Mnc2JZc2czYnMpcyvzJ7Mss2azKxuzYDMrM2OzY7Mn8yWzYfMpHTNmM2NzKzNhcykzZPMvMytacyqzLFuzaBnzLTNiSDNj82JzYVjzKzMn2jNoWHNmMyrzLvMr2/Mq8yfzJbNjcyZzJ3NiXPMl8ymzLIuzKjMuc2IzKMK
+zKHNk82FzJ5JzZ3Ml8yYzKZuzYfNh82ZdsyuzKtva8yyzKvMmc2IacyWzZnMrcy5zKDMnm7Mocy7zK7Mo8y6Z8yyzYjNmcytzZnMrM2OIMywdM2UzKZozJ7MsmXMosykIM2NzKzMss2WZsy0zJjNlcyjZc2AzZZlzKPMpcypbM2WzZTNmmnNoM2TzZrMpm7Nls2NzJfNk8yzzK5nzY0gzKhvzaHNmsyqZsyYzKPMrCDMlsyYzZbMn82ZzK5j0onNlMyrzZbNk82HzZbNhWjMtcykzKPNms2UYc2BzJfMvM2FzZVvzLzMo8ylc82izLHNiMy6zJbMpsy7LsybzJbMnsygzKvMsAo=
+zJfMus2WzLnMr82TVMyxzKTNjcylzYfNiGjNgcyyZc2PzZPMvMyXzJnMvMyjzZQgzYfMnMyxzKDNk82NzYVOzaDNlWXMl8yxesyYzJ3MnMy6zZlwzKTMusy5zY3Mr82aZc2czKDMu8ygcsyozKTNjcy6zJbNlMyWzJZkzZ/MoMyfzK3MrMydacymzZbMqc2TzZTMpGHMoMyXzKzNicyZbs2czZogzLvMnsywzZrNhWjMtc2JacyzzJ52zKLNh2XNn8ytzY4t0onMrcypzLzNlG3MpMytzKtpzZXNh8ydzKZuzJfNmWTMo8yfIM2ezK/Mss2Vb8yozJ/Mr8ywzLLNmcy7zJ1mIM2YzKrMsMywzJfMlsytzJhjzKbNjcyyzJ7NjcypzJlozKPNmmHNnMyuzY7Mn8yZb8ybzKnMuc2Oc8ykLsydzJ0g0olazKHMlsyczZbMsMyjzYnMnGHNoc2WzLDNmcysbMyyzKvMs82NzKlnzKHMn8y8zLHNmsyezKzNhW/NnMyXLsyfCg==
+zKZIzZ3MrMykzJfMpGXNnCDNgcyczKXMncy7zY3Mn3fMlWjMlsyvzZNvzJ3NmcyWzY7MscyuINKJzLrMmcyezJ/NiFfMt8y8zK1hzLrMqs2NacyozYjNlcytzZnMr8ycdMy2zLzMrnPMlcyYzZnNliDMoMyrzKBCzLvNjc2FzZnNicyzZcy1aMy1zKzNh8yrzZlpzJXMuc2TzLPMs8yuzY7Mq27Nn2TMtMyqzJzMliDNnsywzYnMqc2FzYfNmcyyVM2izZbMvM2TzKpozY/Nk8yuzLtlzKzMnc2FzJ8gzKTMucydV82dzYXNmcyezJ3NlM2HYc2PzZPNlMy5zLzMo2zMtM2UzLDMpMyfzZRszK3Mqy7NlQo=
+WsyuzJ7NhcygzZnNlEHMpcyXzJ7NiMy7zJdMzKPNmc2OzK/MucyezZNHzLtPzK3Ml8yuCg==
+
+# Unicode Upsidedown
+#
+# Strings which contain unicode with an "upsidedown" effect (via http://www.upsidedowntext.com)
+
+y5nJkG5i4bSJbMmQIMmQdcaDyZDJryDHncm5b2xvcCDKh8edIMedyblvccmQbCDKh24gyod1bnDhtIlw4bSJyZR14bSJIMm5b2TJr8edyocgcG/Jr3Nu4bSJx50gb3AgcMedcyAnyofhtIlsx50gxoN14bSJyZRz4bSJZOG0iXDJkCDJuW7Kh8edyofJlMedc3VvyZQgJ8qHx53Jr8mQIMqH4bSJcyDJuW9sb3Agya9uc2ThtIkgya/Hncm5b8ulCg==
+MDDLmcaWJC0K
+
+# Unicode font
+#
+# Strings which contain bold/italic/etc. versions of normal characters
+
+77y0772I772FIO+9ke+9le+9ie+9g++9iyDvvYLvvZLvvY/vvZfvvY4g772G772P772YIO+9iu+9le+9je+9kO+9kyDvvY/vvZbvvYXvvZIg772U772I772FIO+9jO+9ge+9mu+9mSDvvYTvvY/vvYcK
+8J2Qk/CdkKHwnZCeIPCdkKrwnZCu8J2QovCdkJzwnZCkIPCdkJvwnZCr8J2QqPCdkLDwnZCnIPCdkJ/wnZCo8J2QsSDwnZCj8J2QrvCdkKbwnZCp8J2QrCDwnZCo8J2Qr/CdkJ7wnZCrIPCdkK3wnZCh8J2QniDwnZCl8J2QmvCdkLPwnZCyIPCdkJ3wnZCo8J2QoAo=
+8J2Vv/Cdlo3wnZaKIPCdlpbwnZaa8J2WjvCdlojwnZaQIPCdlofwnZaX8J2WlPCdlpzwnZaTIPCdlovwnZaU8J2WnSDwnZaP8J2WmvCdlpLwnZaV8J2WmCDwnZaU8J2Wm/CdlorwnZaXIPCdlpnwnZaN8J2WiiDwnZaR8J2WhvCdlp/wnZaeIPCdlonwnZaU8J2WjAo=
+8J2Ru/CdkonwnZKGIPCdkpLwnZKW8J2SivCdkoTwnZKMIPCdkoPwnZKT8J2SkPCdkpjwnZKPIPCdkofwnZKQ8J2SmSDwnZKL8J2SlvCdko7wnZKR8J2SlCDwnZKQ8J2Sl/CdkobwnZKTIPCdkpXwnZKJ8J2ShiDwnZKN8J2SgvCdkpvwnZKaIPCdkoXwnZKQ8J2SiAo=
+8J2To/Cdk7HwnZOuIPCdk7rwnZO+8J2TsvCdk6zwnZO0IPCdk6vwnZO78J2TuPCdlIDwnZO3IPCdk6/wnZO48J2UgSDwnZOz8J2TvvCdk7bwnZO58J2TvCDwnZO48J2Tv/Cdk67wnZO7IPCdk73wnZOx8J2TriDwnZO18J2TqvCdlIPwnZSCIPCdk63wnZO48J2TsAo=
+8J2Vi/CdlZnwnZWWIPCdlaLwnZWm8J2VmvCdlZTwnZWcIPCdlZPwnZWj8J2VoPCdlajwnZWfIPCdlZfwnZWg8J2VqSDwnZWb8J2VpvCdlZ7wnZWh8J2VpCDwnZWg8J2Vp/CdlZbwnZWjIPCdlaXwnZWZ8J2VliDwnZWd8J2VkvCdlavwnZWqIPCdlZXwnZWg8J2VmAo=
+8J2ag/CdmpHwnZqOIPCdmprwnZqe8J2akvCdmozwnZqUIPCdmovwnZqb8J2amPCdmqDwnZqXIPCdmo/wnZqY8J2aoSDwnZqT8J2anvCdmpbwnZqZ8J2anCDwnZqY8J2an/Cdmo7wnZqbIPCdmp3wnZqR8J2ajiDwnZqV8J2aivCdmqPwnZqiIPCdmo3wnZqY8J2akAo=
+4pKv4pKj4pKgIOKSrOKSsOKSpOKSnuKSpiDikp3ikq3ikqrikrLikqkg4pKh4pKq4pKzIOKSpeKSsOKSqOKSq+KSriDikqrikrHikqDikq0g4pKv4pKj4pKgIOKSp+KSnOKSteKStCDikp/ikqrikqIK
+
+# Script Injection
+#
+# Strings which attempt to invoke a benign script injection; shows vulnerability to XSS
+
+PHNjcmlwdD5hbGVydCgxMjMpPC9zY3JpcHQ+Cg==
+PGltZyBzcmM9eCBvbmVycm9yPWFsZXJ0KDEyMykgLz4K
+PHN2Zz48c2NyaXB0PjEyMzwxPmFsZXJ0KDEyMyk8L3NjcmlwdD4K
+Ij48c2NyaXB0PmFsZXJ0KDEyMyk8L3NjcmlwdD4K
+Jz48c2NyaXB0PmFsZXJ0KDEyMyk8L3NjcmlwdD4K
+PjxzY3JpcHQ+YWxlcnQoMTIzKTwvc2NyaXB0Pgo=
+PC9zY3JpcHQ+PHNjcmlwdD5hbGVydCgxMjMpPC9zY3JpcHQ+Cg==
+PCAvIHNjcmlwdCA+PCBzY3JpcHQgPmFsZXJ0KDEyMyk8IC8gc2NyaXB0ID4K
+b25mb2N1cz1KYVZhU0NyaXB0OmFsZXJ0KDEyMykgYXV0b2ZvY3VzCg==
+IiBvbmZvY3VzPUphVmFTQ3JpcHQ6YWxlcnQoMTIzKSBhdXRvZm9jdXMK
+JyBvbmZvY3VzPUphVmFTQ3JpcHQ6YWxlcnQoMTIzKSBhdXRvZm9jdXMK
+77ycc2NyaXB077yeYWxlcnQoMTIzKe+8nC9zY3JpcHTvvJ4K
+PHNjPHNjcmlwdD5yaXB0PmFsZXJ0KDEyMyk8L3NjPC9zY3JpcHQ+cmlwdD4K
+LS0+PHNjcmlwdD5hbGVydCgxMjMpPC9zY3JpcHQ+Cg==
+IjthbGVydCgxMjMpO3Q9Igo=
+JzthbGVydCgxMjMpO3Q9Jwo=
+SmF2YVNDcmlwdDphbGVydCgxMjMpCg==
+O2FsZXJ0KDEyMyk7Cg==
+c3JjPUphVmFTQ3JpcHQ6cHJvbXB0KDEzMikK
+Ij48c2NyaXB0PmFsZXJ0KDEyMyk7PC9zY3JpcHQgeD0iCg==
+Jz48c2NyaXB0PmFsZXJ0KDEyMyk7PC9zY3JpcHQgeD0nCg==
+PjxzY3JpcHQ+YWxlcnQoMTIzKTs8L3NjcmlwdCB4PQo=
+IiBhdXRvZm9jdXMgb25rZXl1cD0iamF2YXNjcmlwdDphbGVydCgxMjMpCg==
+JyBhdXRvZm9jdXMgb25rZXl1cD0namF2YXNjcmlwdDphbGVydCgxMjMpCg==
+
+# SQL Injection
+#
+# Strings which can cause a SQL injection if inputs are not sanitized
+
+MTtEUk9QIFRBQkxFIHVzZXJzCg==
+MSc7IERST1AgVEFCTEUgdXNlcnMtLQo=
+
+# Server Code Injection
+#
+# Strings which can cause user to run code on server as a privileged user (c.f. https://news.ycombinator.com/item?id=7665153)
+
+LQo=
+LS0K
+LS12ZXJzaW9uCg==
+LS1oZWxwCg==
+JFVTRVIK
+L2Rldi9udWxsOyB0b3VjaCAvdG1wL2JsbnMuZmFpbCA7IGVjaG8K
+YHRvdWNoIC90bXAvYmxucy5mYWlsYAo=
+JCh0b3VjaCAvdG1wL2JsbnMuZmFpbCkK
+QHtbc3lzdGVtICJ0b3VjaCAvdG1wL2JsbnMuZmFpbCJdfQo=
+
+# Command Injection (Ruby)
+#
+# Strings which can call system commands within Ruby/Rails applications
+
+ZXZhbCgicHV0cyAnaGVsbG8gd29ybGQnIikK
+U3lzdGVtKCJscyAtYWwgLyIpCg==
+YGxzIC1hbCAvYAo=
+S2VybmVsLmV4ZWMoImxzIC1hbCAvIikK
+S2VybmVsLmV4aXQoMSkK
+JXgoJ2xzIC1hbCAvJykK
+
+# XXE Injection (XML)
+#
+# String which can reveal system files when parsed by a badly configured XML parser
+
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iSVNPLTg4NTktMSI/PjwhRE9DVFlQRSBmb28gWyA8IUVMRU1FTlQgZm9vIEFOWSA+PCFFTlRJVFkgeHhlIFNZU1RFTSAiZmlsZTovLy9ldGMvcGFzc3dkIiA+XT48Zm9vPiZ4eGU7PC9mb28+Cg==
+
+# Unwanted Interpolation
+#
+# Strings which can be accidentally expanded into different strings if evaluated in the wrong context, e.g. used as a printf format string or via Perl or shell eval. Might expose sensitive data from the program doing the interpolation, or might just represent the wrong string.
+
+JEhPTUUK
+JEVOVnsnSE9NRSd9Cg==
+JWQK
+JXMK
+JSouKnMK
+
+# File Inclusion
+#
+# Strings which can cause user to pull in files that should not be a part of a web server
+
+Li4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vZXRjL3Bhc3N3ZCUwMAo=
+Li4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vZXRjL2hvc3RzCg==
+
+# Known CVEs and Vulnerabilities
+#
+# Strings that test for known vulnerabilities
+
+KCkgeyAwOyB9OyB0b3VjaCAvdG1wL2JsbnMuc2hlbGxzaG9jazEuZmFpbDsK
+KCkgeyBfOyB9ID5fWyQoJCgpKV0geyB0b3VjaCAvdG1wL2JsbnMuc2hlbGxzaG9jazIuZmFpbDsgfQo=
+
+# MSDOS/Windows Special Filenames
+#
+# Strings which are reserved characters in MSDOS/Windows
+
+Q09OCg==
+UFJOCg==
+QVVYCg==
+Q0xPQ0skCg==
+TlVMCg==
+QToK
+Wlo6Cg==
+Q09NMQo=
+TFBUMQo=
+TFBUMgo=
+TFBUMwo=
+Q09NMgo=
+Q09NMwo=
+Q09NNAo=
+
+# Human injection
+#
+# Strings which may cause human to reinterpret worldview
+
+SWYgeW91J3JlIHJlYWRpbmcgdGhpcywgeW91J3ZlIGJlZW4gaW4gYSBjb21hIGZvciBhbG1vc3QgMjAgeWVhcnMgbm93LiBXZSdyZSB0cnlpbmcgYSBuZXcgdGVjaG5pcXVlLiBXZSBkb24ndCBrbm93IHdoZXJlIHRoaXMgbWVzc2FnZSB3aWxsIGVuZCB1cCBpbiB5b3VyIGRyZWFtLCBidXQgd2UgaG9wZSBpdCB3b3Jrcy4gUGxlYXNlIHdha2UgdXAsIHdlIG1pc3MgeW91Lgo=
+
+# Terminal escape codes
+#
+# Strings which punish the fools who use cat/type on this file
+
+Um9zZXMgYXJlIBtbMDszMW1yZWQbWzBtLCB2aW9sZXRzIGFyZSAbWzA7MzRtYmx1ZS4gSG9wZSB5b3UgZW5qb3kgdGVybWluYWwgaHVlCg==
+QnV0IG5vdy4uLhtbMjBDZm9yIG15IGdyZWF0ZXN0IHRyaWNrLi4uG1s4bQo=
+VGhlIHF1aWMICAgICAhrIGJyb3duIGZvBwcHBwcHBwcHBwd4Li4uIFtCZWVlZXBdCg==
+
+# iOS Vulnerability
+#
+# Strings which crashed iMessage in iOS versions 8.3 and earlier
+
+UG93ZXLZhNmP2YTZj9i12ZHYqNmP2YTZj9mE2LXZkdio2Y/Ysdix2Ysg4KWjIOClo2gg4KWjIOClo+WGlwo=
