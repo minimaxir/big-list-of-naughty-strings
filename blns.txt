@@ -478,8 +478,9 @@ perl -e 'print "<IMG SRC=java\0script:alert(\"XSS\")>";' > out
 #	Strings which can cause a SQL injection if inputs are not sanitized
 
 1;DROP TABLE users
-1'; DROP TABLE users--
-' OR 1 == 1;
+1'; DROP TABLE users-- 1
+' OR 1=1 -- 1
+' OR '1'='1
 
 #	Server Code Injection
 #
