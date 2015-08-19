@@ -242,6 +242,7 @@ Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮
 #	Strings which attempt to invoke a benign script injection; shows vulnerability to XSS
 
 <script>alert(123)</script>
+&lt;script&gt;alert(&#39;123&#39;);&lt;/script&gt;
 <img src=x onerror=alert(123) />
 <svg><script>123<1>alert(123)</script> 
 "><script>alert(123)</script>
