@@ -18,6 +18,9 @@ with open('../blns.txt', 'r') as f:
     # insert empty string since all are being removed
     content.insert(0, "")
     
+    # special case: convert "\" to "\\" for valid JSON
+    #content = map(lambda x: x.replace('\','\\'), content)
+    
 with open('../blns.json', 'wb') as f:
 
 	# write JSON to file; note the ensure_ascii parameter
