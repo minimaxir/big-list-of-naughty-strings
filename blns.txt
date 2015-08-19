@@ -474,6 +474,7 @@ perl -e 'print "<IMG SRC=java\0script:alert(\"XSS\")>";' > out
 
 1;DROP TABLE users
 1'; DROP TABLE users--
+' OR 1 == 1;
 
 #	Server Code Injection
 #
