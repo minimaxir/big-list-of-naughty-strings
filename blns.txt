@@ -557,6 +557,32 @@ COM2
 COM3
 COM4
 
+# Scunthorpe problem
+# 
+# Innocuous strings which may be blocked by profanity filters
+
+Scunthorpe General Hospital
+Penistone Community Church
+Lightwater Country Park
+Jimmy Clitheroe
+Horniman Museum
+shitake mushrooms
+RomansInSussex.co.uk
+http://www.cum.qc.ca/
+Craig Cockburn, Software Specialist
+Bernie Sanders, Democratic Socialist
+Linda Callahan
+Dr. Herman I. Libshitz
+magna cum laude
+Super Bowl XXX
+medieval erection of parapets
+evaluate
+mocha
+expression
+Arsenal canal
+classic
+Tyson Gay
+
 #	Human injection
 #
 #	Strings which may cause human to reinterpret worldview
