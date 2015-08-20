@@ -557,9 +557,9 @@ COM2
 COM3
 COM4
 
-# Scunthorpe problem
-# 
-# Innocuous strings which may be blocked by profanity filters
+#	Scunthorpe Problem
+#
+#	Innocuous strings which may be blocked by profanity filters (https://en.wikipedia.org/wiki/Scunthorpe_problem)
 
 Scunthorpe General Hospital
 Penistone Community Church
@@ -570,7 +570,6 @@ shitake mushrooms
 RomansInSussex.co.uk
 http://www.cum.qc.ca/
 Craig Cockburn, Software Specialist
-Bernie Sanders, Democratic Socialist
 Linda Callahan
 Dr. Herman I. Libshitz
 magna cum laude
