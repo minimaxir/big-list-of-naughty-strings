@@ -392,6 +392,7 @@
   "<IMG SRC=\"javascript:alert('XSS')\"", 
   "<iframe src=http://ha.ckers.org/scriptlet.html <", 
   "\\\";alert('XSS');//", 
+  "<plaintext>",
   "1;DROP TABLE users", 
   "1'; DROP TABLE users-- 1", 
   "' OR 1=1 -- 1", 

