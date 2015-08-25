@@ -485,6 +485,28 @@ perl -e 'print "<IMG SRC=java\0script:alert(\"XSS\")>";' > out
 ' OR 1=1 -- 1
 ' OR '1'='1
 
+#	SQL Keywords - Are these words filtered out?
+SELECT
+FROM
+WHERE
+GROUP BY
+HAVING
+ORDER BY
+INSERT
+UPDATE
+MERGE
+DELETE
+BEGIN
+WORK
+START
+TRANSACTION
+COMMIT
+ROLLBACK
+CREATE
+DROP
+TRUNCATE
+ALTER
+
 #	Server Code Injection
 #
 #	Strings which can cause user to run code on server as a privileged user (c.f. https://news.ycombinator.com/item?id=7665153)
