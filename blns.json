@@ -389,6 +389,8 @@
   "<<SCRIPT>alert(\"XSS\");//<</SCRIPT>", 
   "<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >", 
   "<SCRIPT SRC=//ha.ckers.org/.j>", 
+  "'); alert('pwned'); console.log('",
+  "\"); alert('pwned'); console.log(\"",
   "<IMG SRC=\"javascript:alert('XSS')\"", 
   "<iframe src=http://ha.ckers.org/scriptlet.html <", 
   "\\\";alert('XSS');//", 
