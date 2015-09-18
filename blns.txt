@@ -524,6 +524,7 @@ $HOME
 $ENV{'HOME'}
 %d
 %s
+{0}
 %*.*s
 
 #	File Inclusion
@@ -583,6 +584,7 @@ expression
 Arsenal canal
 classic
 Tyson Gay
+basement
 
 #	Human injection
 #
