@@ -61,6 +61,12 @@ $1.00
 NaN
 Infinity
 -Infinity
+INF
+1#INF
+-1#IND
+1#QNAN
+1#SNAN
+1#IND
 0x0
 0xffffffff
 0xffffffffffffffff
