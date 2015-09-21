@@ -619,3 +619,9 @@ The quick brown fox... [Beeeep]
 #	Strings which crashed iMessage in iOS versions 8.3 and earlier
 
 Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
+
+#   Chromium Vulnerability
+#
+#   URL that chrashes any app built on the current version of Chromium (45.0.2454.93)
+
+http://github.com/%%30%30
