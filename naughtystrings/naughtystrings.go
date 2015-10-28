@@ -1,37 +1,45 @@
+//go:generate go get -u github.com/jteeuwen/go-bindata/go-bindata
+//go:generate go install github.com/jteeuwen/go-bindata/go-bindata
+//go:generate go-bindata -ignore \.git\S* -ignore LICENSE -ignore README\.md -ignore blns\.base64\.txt -ignore blns\.txt -ignore package\.json -o internal/resource.go -nocompress -pkg internal ..
+
 // Package naughtystrings is a collection of strings that have a high probability of causing issues when used as user input.
 package naughtystrings
 
 import (
 	"encoding/json"
-	"os"
-	"path"
-	"runtime"
+
+	"github.com/willfaught/big-list-of-naughty-strings/naughtystrings/internal"
 )
+
+var base64encoded, unencoded []string
 
 // Base64Encoded returns the strings encoded in base 64.
 func Base64Encoded() []string {
-	return strings("blns.base64.json")
+	return base64encoded
 }
 
 // Unencoded returns the strings.
 func Unencoded() []string {
-	return strings("blns.json")
+	return unencoded
 }
 
-func strings(file string) []string {
-	var _, here, _, _ = runtime.Caller(0)
+func init() {
+	base64encoded = load("../blns.base64.json")
+	unencoded = load("../blns.json")
+}
 
-	there, err := os.Open(path.Join(path.Dir(path.Dir(here)), file))
+func load(file string) []string {
+	var asset, err = internal.Asset(file)
 
 	if err != nil {
 		panic(err)
 	}
 
-	var strings []string
+	var naughty []string
 
-	if err := json.NewDecoder(there).Decode(&strings); err != nil {
+	if err := json.Unmarshal(asset, &naughty); err != nil {
 		panic(err)
 	}
 
-	return strings
+	return naughty
 }
