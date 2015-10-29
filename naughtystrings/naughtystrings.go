@@ -8,7 +8,7 @@ package naughtystrings
 import (
 	"encoding/json"
 
-	"github.com/willfaught/big-list-of-naughty-strings/naughtystrings/internal"
+	"github.com/minimaxir/big-list-of-naughty-strings/naughtystrings/internal"
 )
 
 var base64encoded, unencoded []string
