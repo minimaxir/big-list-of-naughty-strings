@@ -179,6 +179,13 @@ __ﾛ(,_,*)
 🚾 🆒 🆓 🆕 🆖 🆗 🆙 🏧
 0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟
 
+#       Regional Indicator Symbols
+#
+#       Regional Indicator Symbols can be displayed differently across
+#       fonts, and have a number of special behaviors
+
+🇺🇸🇷🇺🇸 🇦🇫🇦🇲🇸                                                                                          
+
 #	Unicode Numbers
 #
 #	Strings which contain unicode numbers; if the code is localized, it should see the input as numeric
