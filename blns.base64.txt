@@ -60,6 +60,12 @@ OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5
 TmFOCg==
 SW5maW5pdHkK
 LUluZmluaXR5Cg==
+SU5GCg==
+MSNJTkYK
+LTEjSU5ECg==
+MSNRTkFOCg==
+MSNTTkFOCg==
+MSNJTkQK
 MHgwCg==
 MHhmZmZmZmZmZgo=
 MHhmZmZmZmZmZmZmZmZmZmZmCg==
@@ -125,6 +131,10 @@ IiIK
 JyInCg==
 IicnJyciJyIK
 IiciJyInJycnIgo=
+PGZvbyB2YWw94oCcYmFy4oCdIC8+Cg==
+PGZvbyB2YWw94oCcYmFy4oCdIC8+Cg==
+PGZvbyB2YWw94oCdYmFy4oCcIC8+Cg==
+PGZvbyB2YWw9YGJhcicgLz4K
 
 # Two-Byte Characters
 #
@@ -167,6 +177,15 @@ KCDNocKwIM2cypYgzaHCsCkK
 4pyL8J+PvyDwn5Kq8J+PvyDwn5GQ8J+PvyDwn5mM8J+PvyDwn5GP8J+PvyDwn5mP8J+Pvwo=
 8J+aviDwn4aSIPCfhpMg8J+GlSDwn4aWIPCfhpcg8J+GmSDwn4+nCg==
 MO+4j+KDoyAx77iP4oOjIDLvuI/ig6MgM++4j+KDoyA077iP4oOjIDXvuI/ig6MgNu+4j+KDoyA377iP4oOjIDjvuI/ig6MgOe+4j+KDoyDwn5SfCg==
+
+# Regional Indicator Symbols
+#
+# Regional Indicator Symbols can be displayed differently across
+# fonts, and have a number of special behaviors
+
+8J+HuvCfh7jwn4e38J+HuvCfh7gg8J+HpvCfh6vwn4em8J+HsvCfh7gK
+8J+HuvCfh7jwn4e38J+HuvCfh7jwn4em8J+Hq/Cfh6bwn4eyCg==
+8J+HuvCfh7jwn4e38J+HuvCfh7jwn4emCg==
 
 # Unicode Numbers
 #
@@ -474,6 +493,7 @@ PElNRyBTUkM9ImphdmFzY3JpcHQ6YWxlcnQoJ1hTUycpIgo=
 PGlmcmFtZSBzcmM9aHR0cDovL2hhLmNrZXJzLm9yZy9zY3JpcHRsZXQuaHRtbCA8Cg==
 IjthbGVydCgnWFNTJyk7Ly8K
 PHBsYWludGV4dD4K
+aHR0cDovL2EvJSUzMCUzMAo=
 
 # SQL Injection
 #
@@ -483,6 +503,9 @@ MTtEUk9QIFRBQkxFIHVzZXJzCg==
 MSc7IERST1AgVEFCTEUgdXNlcnMtLSAxCg==
 JyBPUiAxPTEgLS0gMQo=
 JyBPUiAnMSc9JzEK
+
+JQo=
+Xwo=
 
 # Server Code Injection
 #
@@ -523,7 +546,7 @@ JEhPTUUK
 JEVOVnsnSE9NRSd9Cg==
 JWQK
 JXMK
-ezB9
+ezB9Cg==
 JSouKnMK
 
 # File Inclusion
@@ -583,6 +606,7 @@ ZXhwcmVzc2lvbgo=
 QXJzZW5hbCBjYW5hbAo=
 Y2xhc3NpYwo=
 VHlzb24gR2F5Cg==
+YmFzZW1lbnQK
 
 # Human injection
 #
