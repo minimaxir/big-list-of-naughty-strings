@@ -586,6 +586,12 @@ COM2
 COM3
 COM4
 
+#   IRC specific strings
+#
+#   Strings that may occur on IRC clients that make security products freak out
+
+DCC SEND STARTKEYLOGGER 0 0 0
+
 #	Scunthorpe Problem
 #
 #	Innocuous strings which may be blocked by profanity filters (https://en.wikipedia.org/wiki/Scunthorpe_problem)
