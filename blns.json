@@ -12,6 +12,7 @@
   "True", 
   "False", 
   "None", 
+  "hasOwnProperty", 
   "\\", 
   "\\\\", 
   "0", 

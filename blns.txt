@@ -14,6 +14,7 @@ false
 True
 False
 None
+hasOwnProperty
 \
 \\
 
