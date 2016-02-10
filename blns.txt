@@ -98,6 +98,9 @@ INF
 <>?:"{}|_+
 !@#$%^&*()`~
 
+# ASCII bell (not valid in XML)
+
+
 #	Unicode Symbols
 #
 #	Strings which contain common unicode symbols (e.g. smart quotes)

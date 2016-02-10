@@ -97,6 +97,9 @@ LC4vOydbXS09Cg==
 PD4/OiJ7fXxfKwo=
 IUAjJCVeJiooKWB+Cg==
 
+# ASCII bell (not valid in XML)
+Bw==
+
 # Unicode Symbols
 #
 # Strings which contain common unicode symbols (e.g. smart quotes)
