@@ -13,6 +13,8 @@ true
 false
 True
 False
+TRUE
+FALSE
 None
 hasOwnProperty
 \
