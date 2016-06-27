@@ -550,6 +550,7 @@ Kernel.exit(1)
 
 $HOME
 $ENV{'HOME'}
+$ENV{HOME}
 %d
 %s
 {0}
