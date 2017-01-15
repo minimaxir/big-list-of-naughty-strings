@@ -4,7 +4,7 @@
   "description": "The Big List of Naughty Strings is a list of strings which have a high probability of causing issues when used as user-input data",
   "author": "Max Woolf <max@minimaxir.com>",
   "main": "blns.json",
-  "repository": "git+https://github.com/minimaxir/big-list-of-naughty-strings.git",
+  "repository": "minimaxir/big-list-of-naughty-strings",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/minimaxir/big-list-of-naughty-strings/issues"
