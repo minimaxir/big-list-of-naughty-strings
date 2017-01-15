@@ -23,6 +23,19 @@ Likewise, please do not send pull requests which compromise *manual usability of
 
 The Big List of Naughty Strings is intended to be used *for software you own and manage*. Some of the Naughty Strings can indicate security vulnerabilities, and as a result using such strings with third-party software may be a crime. The maintainer is not responsible for any negative actions that result from the use of the list.
 
-## Maintainer
+Additionally, the Big List of Naughty Strings is not a fully-comprehensive substitute for formal security/penetration testing for your service.
 
-* Max Woolf ([@minimaxir](https://twitter.com/minimaxir))
+## Maintainer/Creator
+
+Max Woolf ([@minimaxir](https://twitter.com/minimaxir))
+
+## Social Media Discussions
+
+* June 10, 2015 [Hacker News]: [Show HN: Big List of Naughty Strings for testing user-input data](https://news.ycombinator.com/item?id=10035008)
+* August 17, 2015 [Reddit]: [Big list of naughty strings.](https://www.reddit.com/r/programming/comments/3hdxqx/big_list_of_naughty_strings/)
+* February 9, 2016 [Reddit]: [Big List of Naughty Strings](https://www.reddit.com/r/webdev/comments/44wc5b/big_list_of_naughty_strings/)
+* January 15, 2017 [Hacker News]: [Naughty Strings: A list of strings likely to cause issues as user-input data](https://news.ycombinator.com/item?id=13406119)
+
+## License
+
+MIT
