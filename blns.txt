@@ -506,6 +506,7 @@ perl -e 'print "<IMG SRC=java\0script:alert(\"XSS\")>";' > out
 <i onwheel=alert(1)> Scroll over me </i>
 <plaintext>
 http://a/%%30%30
+</textarea><script>alert(123)</script>
 
 #	SQL Injection
 #
