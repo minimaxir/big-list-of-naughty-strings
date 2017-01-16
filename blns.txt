@@ -575,6 +575,7 @@ $ENV{'HOME'}
 () { 0; }; touch /tmp/blns.shellshock1.fail;
 () { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }
 <<< %s(un='%s') = %u
++++ATH0
 
 #	MSDOS/Windows Special Filenames
 #
