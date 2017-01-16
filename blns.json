@@ -7,6 +7,7 @@
   "(null)", 
   "nil", 
   "NIL", 
+  "NaN", 
   "true", 
   "false", 
   "True", 
