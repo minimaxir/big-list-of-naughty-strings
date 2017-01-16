@@ -415,6 +415,7 @@
   "<i onwheel=alert(1)> Scroll over me </i>", 
   "<plaintext>", 
   "http://a/%%30%30", 
+  "</textarea><script>alert(123)</script>",
   "1;DROP TABLE users", 
   "1'; DROP TABLE users-- 1", 
   "' OR 1=1 -- 1", 
