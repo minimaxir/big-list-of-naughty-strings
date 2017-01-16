@@ -444,6 +444,7 @@
   "../../../../../../../../../../../etc/hosts", 
   "() { 0; }; touch /tmp/blns.shellshock1.fail;", 
   "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }", 
+  "+++ATH0",
   "CON", 
   "PRN", 
   "AUX", 
