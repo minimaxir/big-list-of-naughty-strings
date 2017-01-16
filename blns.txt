@@ -650,3 +650,9 @@ The quick brown fox... [Beeeep]
 #	Strings which crashed iMessage in iOS versions 8.3 and earlier
 
 Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
+
+#	OS X Vulnerability
+#
+#	Strings which crashed OS X versions 10.8 - 10.8.2
+
+File:///
