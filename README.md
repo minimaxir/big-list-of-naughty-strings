@@ -35,6 +35,7 @@ Max Woolf ([@minimaxir](https://twitter.com/minimaxir))
 * August 17, 2015 [Reddit]: [Big list of naughty strings.](https://www.reddit.com/r/programming/comments/3hdxqx/big_list_of_naughty_strings/)
 * February 9, 2016 [Reddit]: [Big List of Naughty Strings](https://www.reddit.com/r/webdev/comments/44wc5b/big_list_of_naughty_strings/)
 * January 15, 2017 [Hacker News]: [Naughty Strings: A list of strings likely to cause issues as user-input data](https://news.ycombinator.com/item?id=13406119)
+* January 16, 2017 [Reddit]: [Naughty Strings: A list of strings likely to cause issues as user-input data](https://www.reddit.com/r/programming/comments/5o9inb/naughty_strings_a_list_of_strings_likely_to_cause/)
 
 ## License
 
