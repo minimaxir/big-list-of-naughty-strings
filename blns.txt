@@ -540,7 +540,7 @@ $(touch /tmp/blns.fail)
 #	Strings which can call system commands within Ruby/Rails applications
 
 eval("puts 'hello world'")
-System("ls -al /")
+system("ls -al /")
 `ls -al /`
 Kernel.exec("ls -al /")
 Kernel.exit(1)
