@@ -650,3 +650,10 @@ The quick brown fox... [Beeeep]
 #	Strings which crashed iMessage in iOS versions 8.3 and earlier
 
 Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
+
+#	Robot checks
+#
+#	Strings which may cause robots to hang
+
+This statement is false.
+Through inaction, allow a human being to come to harm.
