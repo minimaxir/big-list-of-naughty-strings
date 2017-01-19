@@ -498,6 +498,7 @@ PGlmcmFtZSBzcmM9aHR0cDovL2hhLmNrZXJzLm9yZy9zY3JpcHRsZXQuaHRtbCA8Cg==
 IjthbGVydCgnWFNTJyk7Ly8K
 PHBsYWludGV4dD4K
 aHR0cDovL2EvJSUzMCUzMAo=
+PC90ZXh0YXJlYT48c2NyaXB0PmFsZXJ0KDEyMyk8L3NjcmlwdD4=
 
 # SQL Injection
 #
@@ -566,6 +567,7 @@ Li4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vZXRjL2hvc3RzCg==
 
 KCkgeyAwOyB9OyB0b3VjaCAvdG1wL2JsbnMuc2hlbGxzaG9jazEuZmFpbDsK
 KCkgeyBfOyB9ID5fWyQoJCgpKV0geyB0b3VjaCAvdG1wL2JsbnMuc2hlbGxzaG9jazIuZmFpbDsgfQo=
+KysrQVRIMA==
 
 # MSDOS/Windows Special Filenames
 #
