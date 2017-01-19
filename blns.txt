@@ -92,14 +92,45 @@ INF
 
 #	Special Characters
 #
-#	Strings which contain common special ASCII characters (may need to be escaped)
+# ASCII punctuation.  All of these characters may need to be escaped in some
+# contexts.  Divided into three groups based on (US-layout) keyboard position.
 
 ,./;'[]\-=
 <>?:"{}|_+
 !@#$%^&*()`~
 
-# ASCII bell (not valid in XML)
-
+# Non-whitespace C0 controls: U+0001 through U+0008, U+000E through U+001F,
+# and U+007F (DEL)
+# Often forbidden to appear in various text-based file formats (e.g. XML),
+# or reused for internal delimiters on the theory that they should never
+# appear in input.
+# The next line may appear to be blank or mojibake in some viewers.
+
+
+# Non-whitespace C1 controls: U+0080 through U+0084 and U+0086 through U+009F.
+# Commonly misinterpreted as additional graphic characters.
+# The next line may appear to be blank, mojibake, or dingbats in some viewers.
+
+
+# Whitespace: all of the characters with category Zs, Zl, or Zp (in Unicode
+# version 8.0.0), plus U+0009 (HT), U+000B (VT), U+000C (FF), U+0085 (NEL),
+# and U+200B (ZERO WIDTH SPACE), which are in the C categories but are often
+# treated as whitespace in some contexts.
+# This file unfortunately cannot express strings containing
+# U+0000, U+000A, or U+000D (NUL, LF, CR).
+# The next line may appear to be blank or mojibake in some viewers.
+# The next line may be flagged for "trailing whitespace" in some viewers.
+	              ​    　
+
+# Unicode additional control characters: all of the characters with
+# general category Cf (in Unicode 8.0.0).
+# The next line may appear to be blank or mojibake in some viewers.
+­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿
+
+# "Byte order marks", U+FEFF and U+FFFE, each on its own line.
+# The next two lines may appear to be blank or mojibake in some viewers.
+﻿
+￾
 
 #	Unicode Symbols
 #
@@ -209,18 +240,6 @@ __ﾛ(,_,*)
 ﷽
 ﷺ
 مُنَاقَشَةُ سُبُلِ اِسْتِخْدَامِ اللُّغَةِ فِي النُّظُمِ الْقَائِمَةِ وَفِيم يَخُصَّ التَّطْبِيقَاتُ الْحاسُوبِيَّةُ، 
-#	Unicode Spaces
-#
-#	Strings which contain unicode space characters with special properties (c.f. https://www.cs.tut.fi/~jkorpela/chars/spaces.html)
-
-​
- 
-᠎
-　
-﻿
-␣
-␢
-␡
 
 #	Trick Unicode
 #
