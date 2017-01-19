@@ -190,14 +190,14 @@ INF
 #
 #	Strings which consists of Japanese-style emoticons which are popular on the web
 
-ヽ༼ຈل͜ຈ༽ﾉ ヽ༼ຈل͜ຈ༽ﾉ 
+ヽ༼ຈل͜ຈ༽ﾉ ヽ༼ຈل͜ຈ༽ﾉ
 (｡◕ ∀ ◕｡)
 ｀ｨ(´∀｀∩
 __ﾛ(,_,*)
 ・(￣∀￣)・:*:
 ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ
 ,。・:*:・゜’( ☻ ω ☻ )。・:*:・゜’
-(╯°□°）╯︵ ┻━┻)  
+(╯°□°）╯︵ ┻━┻)
 (ﾉಥ益ಥ）ﾉ﻿ ┻━┻
 ( ͡° ͜ʖ ͡°)
 
@@ -207,7 +207,7 @@ __ﾛ(,_,*)
 
 😍
 👩🏽
-👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 
+👾 🙇 💁 🙅 🙆 🙋 🙎 🙍
 🐵 🙈 🙉 🙊
 ❤️ 💔 💌 💕 💞 💓 💗 💖 💘 💝 💟 💜 💛 💚 💙
 ✋🏿 💪🏿 👐🏿 🙌🏿 👏🏿 🙏🏿
@@ -219,7 +219,7 @@ __ﾛ(,_,*)
 #       Regional Indicator Symbols can be displayed differently across
 #       fonts, and have a number of special behaviors
 
-🇺🇸🇷🇺🇸 🇦🇫🇦🇲🇸                                                                                          
+🇺🇸🇷🇺🇸 🇦🇫🇦🇲🇸
 🇺🇸🇷🇺🇸🇦🇫🇦🇲
 🇺🇸🇷🇺🇸🇦
 
@@ -288,15 +288,15 @@ Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮
 <script>alert(123)</script>
 &lt;script&gt;alert(&#39;123&#39;);&lt;/script&gt;
 <img src=x onerror=alert(123) />
-<svg><script>123<1>alert(123)</script> 
+<svg><script>123<1>alert(123)</script>
 "><script>alert(123)</script>
 '><script>alert(123)</script>
 ><script>alert(123)</script>
 </script><script>alert(123)</script>
 < / script >< script >alert(123)< / script >
- onfocus=JaVaSCript:alert(123) autofocus 
-" onfocus=JaVaSCript:alert(123) autofocus 
-' onfocus=JaVaSCript:alert(123) autofocus 
+ onfocus=JaVaSCript:alert(123) autofocus
+" onfocus=JaVaSCript:alert(123) autofocus
+' onfocus=JaVaSCript:alert(123) autofocus
 ＜script＞alert(123)＜/script＞
 <sc<script>ript>alert(123)</sc</script>ript>
 --><script>alert(123)</script>
@@ -317,7 +317,7 @@ src=JaVaSCript:prompt(132)
 <script\x0Ctype="text/javascript">javascript:alert(1);</script>
 <script\x2Ftype="text/javascript">javascript:alert(1);</script>
 <script\x0Atype="text/javascript">javascript:alert(1);</script>
-'`"><\x3Cscript>javascript:alert(1)</script>        
+'`"><\x3Cscript>javascript:alert(1)</script>
 '`"><\x00script>javascript:alert(1)</script>
 ABC<div style="x\x3Aexpression(javascript:alert(1)">DEF
 ABC<div style="x:expression\x5C(javascript:alert(1)">DEF
