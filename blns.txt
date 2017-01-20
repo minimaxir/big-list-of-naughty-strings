@@ -159,6 +159,14 @@ INF
 울란바토르
 𠜎𠜱𠝹𠱓𠱸𠲖𠳏
 
+#	Changing length when lowercased
+#
+#	Characters which increase in length (2 to 3 bytes) when lowercased
+#	Credit: https://twitter.com/jifa/status/625776454479970304
+
+Ⱥ
+Ⱦ
+
 #	Japanese Emoticons
 #
 #	Strings which consists of Japanese-style emoticons which are popular on the web
