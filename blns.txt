@@ -179,6 +179,15 @@ INF
 <foo val=”bar“ />
 <foo val=`bar' />
 
+# Character Set Misdetection
+#
+# Strings prone to being interpreted with the wrong encoding
+
+Bush hid the facts
+畂桳栠摩琠敨映捡獴
+this app can break
+aaaa aaa aaa aaaaa
+
 #	Two-Byte Characters
 #
 #	Strings which contain two-byte characters: can cause rendering issues or character-length issues
