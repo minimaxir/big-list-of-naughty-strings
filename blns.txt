@@ -563,6 +563,8 @@ $USER
 `touch /tmp/blns.fail`
 $(touch /tmp/blns.fail)
 @{[system "touch /tmp/blns.fail"]}
+() { :;};
+\n~.
 
 #	Command Injection (Ruby)
 #
@@ -592,6 +594,8 @@ $ENV{'HOME'}
 {0}
 %*.*s
 File:///
+CONIN$
+CONOUT$
 
 #	File Inclusion
 #
