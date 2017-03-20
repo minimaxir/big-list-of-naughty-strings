@@ -681,3 +681,7 @@ The quick brown fox... [Beeeep]
 
 Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
 🏳0🌈️
+
+#	File Path Errors
+C:\Windows\System32\calc.exe
+/usr/lib/python2.7
