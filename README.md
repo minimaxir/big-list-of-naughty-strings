@@ -1,5 +1,5 @@
 # Big List of Naughty Strings
-The Big List of Naughty Strings is an evolving list of strings which have a high probability of causing issues when used as user-input data. This is intended for use in helping both automated and manual QA testing; useful for whenever your QA engineer [walks into a bar](http://www.sempf.net/post/On-Testing1.aspx).
+The Big List of Naughty Strings is an evolving list of strings which have a high probability of causing issues when used as user-input data. This is intended for use in helping both automated and manual QA testing; useful for whenever your QA engineer [walks into a bar](http://www.sempf.net/post/On-Testing1).
 
 ## Why Test Naughty Strings?
 
