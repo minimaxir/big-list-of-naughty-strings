@@ -3,6 +3,7 @@ The Big List of Naughty Strings is an evolving list of strings which have a high
 
 ## Why Test Naughty Strings?
 
+New changes 
 Even multi-billion dollar companies with huge amounts of automated testing can't find every bad input. For example, look at what happens when you try to Tweet a [zero-width space](https://en.wikipedia.org/wiki/Zero-width_space) (U+200B) on Twitter:
 
 ![](http://i.imgur.com/HyDg2eV.gif)
