@@ -255,7 +255,7 @@ __ﾛ(,_,*)
 הָיְתָהtestالصفحات التّحول
 ﷽
 ﷺ
-مُنَاقَشَةُ سُبُلِ اِسْتِخْدَامِ اللُّغَةِ فِي النُّظُمِ الْقَائِمَةِ وَفِيم يَخُصَّ التَّطْبِيقَاتُ الْحاسُوبِيَّةُ، 
+مُنَاقَشَةُ سُبُلِ اِسْتِخْدَامِ اللُّغَةِ فِي النُّظُمِ الْقَائِمَةِ وَفِيم يَخُصَّ التَّطْبِيقَاتُ الْحاسُوبِيَّةُ،
 
 #	Trick Unicode
 #
@@ -546,7 +546,7 @@ http://a/%%30%30
 1'; DROP TABLE users-- 1
 ' OR 1=1 -- 1
 ' OR '1'='1
- 
+
 %
 _
 
@@ -681,3 +681,16 @@ The quick brown fox... [Beeeep]
 
 Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
 🏳0🌈️
+
+# strings that are used by GTBot
+#may cause irc bot whose output can be controlled to be banned
+#also frequently used for social engineering to get user banned
+#Examples based on regexp's that can be found here
+#https://github.com/savetheinternet/UnrealIRCd/blob/master/spamfilter.conf
+
+!login Wasszup!
+!login grrrr yeah baby!
+!packet 0.0.0.0 20
+!icqpagebomb 9 9 a
+!pfast 10 0.0.0.0 80
+!portscan 0.0.0.0 80 25
