@@ -202,6 +202,12 @@ INF
 Ⱥ
 Ⱦ
 
+#       When lowercased in the JVM the string will grow in length
+#       Strings don't shrink in length when uppercasing.
+#       http://www.unicode.org/Public/UNIDATA/SpecialCasing.txt
+
+İ
+
 #	Japanese Emoticons
 #
 #	Strings which consists of Japanese-style emoticons which are popular on the web
