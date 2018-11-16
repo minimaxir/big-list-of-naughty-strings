@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -o errexit -o nounset -o pipefail
+
 commentChar="#"
 while read line
 do
