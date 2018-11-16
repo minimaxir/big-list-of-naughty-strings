@@ -2,7 +2,7 @@ commentChar="#"
 while read p
 do
     firstChar=${p:0:1}
-    if [[ "$firstChar" != "$commentChar" && "$firstChar" != "" ]]
+    if [[ "$firstChar" != "$commentChar" ]] && [[ -n "$firstChar" ]]
     then
 		echo -n $p | base64
 	else
