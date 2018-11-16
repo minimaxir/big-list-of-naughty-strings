@@ -3,7 +3,7 @@
 set -o errexit -o nounset -o pipefail
 
 commentChar="#"
-while read line
+while read -r line
 do
     firstChar="${line:0:1}"
     if [[ "$firstChar" != "$commentChar" ]] && [[ -n "$firstChar" ]]
