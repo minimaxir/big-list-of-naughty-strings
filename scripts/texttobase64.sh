@@ -8,8 +8,8 @@ do
     firstChar="${line:0:1}"
     if [[ "$firstChar" != "$commentChar" ]] && [[ -n "$firstChar" ]]
     then
-		echo -n $line | base64
+		echo -n "$line" | base64
 	else
-		echo $line
+		echo "$line"
 	fi
 done <blns.txt
