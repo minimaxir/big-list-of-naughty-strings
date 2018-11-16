@@ -220,6 +220,30 @@ PGZvbyB2YWw9YGJhcicgLz4=
 7Jq4656A67CU7Yag66W0
 8KCcjvCgnLHwoJ258KCxk/CgsbjwoLKW8KCzjw==
 
+#	Special Unicode Characters Union
+#
+#	A super string recommended by VMware Inc. Globalization Team: can effectively cause rendering issues or character-length issues to validate product globalization readiness.
+#
+#	表          CJK_UNIFIED_IDEOGRAPHS (U+8868)
+#	ポ          KATAKANA LETTER PO (U+30DD)
+#	あ          HIRAGANA LETTER A (U+3042)
+#	A           LATIN CAPITAL LETTER A (U+0041)
+#	鷗          CJK_UNIFIED_IDEOGRAPHS (U+9DD7)
+#	Œ           LATIN SMALL LIGATURE OE (U+0153) 
+#	é           LATIN SMALL LETTER E WITH ACUTE (U+00E9)
+#	Ｂ           FULLWIDTH LATIN CAPITAL LETTER B (U+FF22)
+#	逍          CJK_UNIFIED_IDEOGRAPHS (U+900D)
+#	Ü           LATIN SMALL LETTER U WITH DIAERESIS (U+00FC)
+#	ß           LATIN SMALL LETTER SHARP S (U+00DF)
+#	ª           FEMININE ORDINAL INDICATOR (U+00AA)
+#	ą           LATIN SMALL LETTER A WITH OGONEK (U+0105)
+#	ñ           LATIN SMALL LETTER N WITH TILDE (U+00F1)
+#	丂          CJK_UNIFIED_IDEOGRAPHS (U+4E02)
+#	㐀          CJK Ideograph Extension A, First (U+3400)
+#	𠀀          CJK Ideograph Extension B, First (U+20000)
+
+6KGo44Od44GCQem3l8WSw6nvvKLpgI3DnMOfwqrEhcOx5LiC45CA8KCAgA==
+
 # Japanese Emoticons
 #
 # Strings which consists of Japanese-style emoticons which are popular on the web
