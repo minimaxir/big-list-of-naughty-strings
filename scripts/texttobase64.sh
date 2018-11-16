@@ -1,11 +1,11 @@
 commentChar="#"
-while read p
+while read line
 do
-    firstChar=${p:0:1}
+    firstChar="${line:0:1}"
     if [[ "$firstChar" != "$commentChar" ]] && [[ -n "$firstChar" ]]
     then
-		echo -n $p | base64
+		echo -n $line | base64
 	else
-		echo $p
+		echo $line
 	fi
 done <blns.txt
