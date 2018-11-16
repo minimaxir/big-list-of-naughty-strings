@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 commentChar="#"
 while read line
 do
