@@ -25,6 +25,18 @@ The Big List of Naughty Strings is intended to be used *for software you own and
 
 Additionally, the Big List of Naughty Strings is not a fully-comprehensive substitute for formal security/penetration testing for your service.
 
+## Library / Packages
+
+Various implementations of the Big List of Naughty Strings have made it to various package managers.  Those are maintained by outside parties, but can be found here:
+
+| Library | Link |
+| ------- | ---- |
+| Node | https://www.npmjs.com/package/blns |
+| Node | https://www.npmjs.com/package/big-list-of-naughty-strings |
+| .NET | https://github.com/SimonCropp/NaughtyStrings |
+
+Please open a PR to list others.
+
 ## Maintainer/Creator
 
 Max Woolf ([@minimaxir](https://twitter.com/minimaxir))
