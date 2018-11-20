@@ -1224,7 +1224,7 @@ var _BlnsJson = []byte(`[
   "Dick Van Dyke",
   "basement",
   "If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you.",
-  "Roses are \u001b[0;31mred\u001b[0m, violets are \u001b[0;34mblue. Hope you enjoy terminal hue",
+  "Roses are \u001b[0;31mred\u001b[0m, violets are \u001b[0;34mblue\u001b[0m. Hope you enjoy terminal hue",
   "But now...\u001b[20Cfor my greatest trick...\u001b[8m",
   "The quic\b\b\b\b\b\bk brown fo\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007x... [Beeeep]",
   "Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗"
