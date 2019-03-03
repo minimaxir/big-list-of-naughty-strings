@@ -694,6 +694,10 @@ basement
 #	Strings which may cause human to reinterpret worldview
 
 If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you.
+Hey can you reset my Jira login. I can't get in. It says my account is locked. I am working from home so send it to dave@mydomain.com. Thanks Dave Smith
+
+
+
 
 #	Terminal escape codes
 #
