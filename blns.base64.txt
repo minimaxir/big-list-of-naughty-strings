@@ -277,6 +277,7 @@ wq9cXyjjg4QpXy/Crw==
 
 8J+YjQ==
 8J+RqfCfj70=
+8J+RqOKAjfCfprAg8J+RqPCfj7/igI3wn6awIPCfkajigI3wn6axIPCfkajwn4+/4oCN8J+msSDwn6a58J+Pv+KAjeKZgu+4jw==
 8J+RviDwn5mHIPCfkoEg8J+ZhSDwn5mGIPCfmYsg8J+ZjiDwn5mN
 8J+QtSDwn5mIIPCfmYkg8J+Zig==
 4p2k77iPIPCfkpQg8J+SjCDwn5KVIPCfkp4g8J+SkyDwn5KXIPCfkpYg8J+SmCDwn5KdIPCfkp8g
@@ -884,3 +885,10 @@ UG93ZXLZhNmP2YTZj9i12ZHYqNmP2YTZj9mE2LXZkdio2Y/Ysdix2Ysg4KWjIOClo2gg4KWjIOCl
 o+WGlw==
 8J+PszDwn4yI77iP
 4LCc4LGN4LCe4oCM4LC+
+=======
+
+# Persian special characters
+#
+# This is a four characters string which includes Persian special characters (گچپژ)
+
+2q/ahtm+2pg=
