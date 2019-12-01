@@ -1,9 +1,15 @@
+#!/usr/bin/env bash
+
+set -o errexit -o nounset -o pipefail
+
 commentChar="#"
-while read p; do 
-        firstChar=${p:0:1}
-        if [[ "$firstChar" != "$commentChar" && "$firstChar" != "" ]] ; then
-		echo -n $p | base64;
+while read -r line
+do
+    firstChar="${line:0:1}"
+    if [[ "$firstChar" != "$commentChar" ]] && [[ -n "$firstChar" ]]
+    then
+		echo -n "$line" | base64
 	else
-		echo $p;
+		echo "$line"
 	fi
 done <blns.txt

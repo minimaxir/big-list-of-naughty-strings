@@ -18,6 +18,7 @@ FALSE
 None
 hasOwnProperty
 then
+constructor
 \
 \\
 
@@ -127,7 +128,7 @@ INF
 # U+0000, U+000A, or U+000D (NUL, LF, CR).
 # The next line may appear to be blank or mojibake in some viewers.
 # The next line may be flagged for "trailing whitespace" in some viewers.
-	              ​    　
+	              ​    　
 
 # Unicode additional control characters: all of the characters with
 # general category Cf (in Unicode 8.0.0).
@@ -194,6 +195,34 @@ INF
 울란바토르
 𠜎𠜱𠝹𠱓𠱸𠲖𠳏
 
+#	Strings which contain two-byte letters: can cause issues with naïve UTF-16 capitalizers which think that 16 bits == 1 character
+
+𐐜 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐙𐐊𐐡𐐝𐐓/𐐝𐐇𐐗𐐊𐐤𐐔 𐐒𐐋𐐗 𐐒𐐌 𐐜 𐐡𐐀𐐖𐐇𐐤𐐓𐐝 𐐱𐑂 𐑄 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐏𐐆𐐅𐐤𐐆𐐚𐐊𐐡𐐝𐐆𐐓𐐆
+
+#	Special Unicode Characters Union
+#
+#	A super string recommended by VMware Inc. Globalization Team: can effectively cause rendering issues or character-length issues to validate product globalization readiness.
+#
+#	表          CJK_UNIFIED_IDEOGRAPHS (U+8868)
+#	ポ          KATAKANA LETTER PO (U+30DD)
+#	あ          HIRAGANA LETTER A (U+3042)
+#	A           LATIN CAPITAL LETTER A (U+0041)
+#	鷗          CJK_UNIFIED_IDEOGRAPHS (U+9DD7)
+#	Œ           LATIN SMALL LIGATURE OE (U+0153) 
+#	é           LATIN SMALL LETTER E WITH ACUTE (U+00E9)
+#	Ｂ           FULLWIDTH LATIN CAPITAL LETTER B (U+FF22)
+#	逍          CJK_UNIFIED_IDEOGRAPHS (U+900D)
+#	Ü           LATIN SMALL LETTER U WITH DIAERESIS (U+00FC)
+#	ß           LATIN SMALL LETTER SHARP S (U+00DF)
+#	ª           FEMININE ORDINAL INDICATOR (U+00AA)
+#	ą           LATIN SMALL LETTER A WITH OGONEK (U+0105)
+#	ñ           LATIN SMALL LETTER N WITH TILDE (U+00F1)
+#	丂          CJK_UNIFIED_IDEOGRAPHS (U+4E02)
+#	㐀          CJK Ideograph Extension A, First (U+3400)
+#	𠀀          CJK Ideograph Extension B, First (U+20000)
+
+表ポあA鷗ŒéＢ逍Üßªąñ丂㐀𠀀
+
 #	Changing length when lowercased
 #
 #	Characters which increase in length (2 to 3 bytes) when lowercased
@@ -225,6 +254,7 @@ __ﾛ(,_,*)
 
 😍
 👩🏽
+👨‍🦰 👨🏿‍🦰 👨‍🦱 👨🏿‍🦱 🦹🏿‍♂️
 👾 🙇 💁 🙅 🙆 🙋 🙎 🙍
 🐵 🙈 🙉 🙊
 ❤️ 💔 💌 💕 💞 💓 💗 💖 💘 💝 💟 💜 💛 💚 💙
@@ -257,7 +287,8 @@ __ﾛ(,_,*)
 הָיְתָהtestالصفحات التّحول
 ﷽
 ﷺ
-مُنَاقَشَةُ سُبُلِ اِسْتِخْدَامِ اللُّغَةِ فِي النُّظُمِ الْقَائِمَةِ وَفِيم يَخُصَّ التَّطْبِيقَاتُ الْحاسُوبِيَّةُ،
+مُنَاقَشَةُ سُبُلِ اِسْتِخْدَامِ اللُّغَةِ فِي النُّظُمِ الْقَائِمَةِ وَفِيم يَخُصَّ التَّطْبِيقَاتُ الْحاسُوبِيَّةُ،
+الكل في المجمو عة (5)
 
 #	Ogham Text
 #
@@ -693,3 +724,9 @@ The quick brown fox... [Beeeep]
 Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
 🏳0🌈️
 జ్ఞ‌ా
+
+# Persian special characters
+#
+# This is a four characters string which includes Persian special characters (گچپژ)
+
+گچپژ
