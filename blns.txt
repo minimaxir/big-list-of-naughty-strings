@@ -18,6 +18,7 @@ FALSE
 None
 hasOwnProperty
 then
+constructor
 \
 \\
 
@@ -194,6 +195,10 @@ INF
 울란바토르
 𠜎𠜱𠝹𠱓𠱸𠲖𠳏
 
+#	Strings which contain two-byte letters: can cause issues with naïve UTF-16 capitalizers which think that 16 bits == 1 character
+
+𐐜 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐙𐐊𐐡𐐝𐐓/𐐝𐐇𐐗𐐊𐐤𐐔 𐐒𐐋𐐗 𐐒𐐌 𐐜 𐐡𐐀𐐖𐐇𐐤𐐓𐐝 𐐱𐑂 𐑄 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐏𐐆𐐅𐐤𐐆𐐚𐐊𐐡𐐝𐐆𐐓𐐆
+
 #	Special Unicode Characters Union
 #
 #	A super string recommended by VMware Inc. Globalization Team: can effectively cause rendering issues or character-length issues to validate product globalization readiness.
@@ -249,6 +254,7 @@ __ﾛ(,_,*)
 
 😍
 👩🏽
+👨‍🦰 👨🏿‍🦰 👨‍🦱 👨🏿‍🦱 🦹🏿‍♂️
 👾 🙇 💁 🙅 🙆 🙋 🙎 🙍
 🐵 🙈 🙉 🙊
 ❤️ 💔 💌 💕 💞 💓 💗 💖 💘 💝 💟 💜 💛 💚 💙
@@ -710,3 +716,9 @@ The quick brown fox... [Beeeep]
 Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
 🏳0🌈️
 జ్ఞ‌ా
+
+# Persian special characters
+#
+# This is a four characters string which includes Persian special characters (گچپژ)
+
+گچپژ
