@@ -323,7 +323,14 @@ p9mF2ZAg2KfZhNmE2ZHZj9i62Y7YqdmQINmB2ZDZiiDYp9mE2YbZkdmP2LjZj9mF2ZAg2KfZhNmS
 2YLZjtin2KbZkNmF2Y7YqdmQINmI2Y7ZgdmQ2YrZhSDZitmO2K7Zj9i12ZHZjiDYp9mE2KrZkdmO
 2LfZktio2ZDZitmC2Y7Yp9iq2Y8g2KfZhNmS2K3Yp9iz2Y/ZiNio2ZDZitmR2Y7YqdmP2Iw=
 
-#	Trick Unicode
+#	Ogham Text
+#
+#	The only unicode alphabet to use a space which isn't empty but should still act like a space.
+
+4Zqb4ZqE4ZqT4ZqQ4ZqL4ZqS4ZqE4ZqA4ZqR4ZqE4ZqC4ZqR4ZqP4ZqF4Zqc
+4Zqb4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqcCg==
+
+# Trick Unicode
 #
 #	Strings which contain unicode with unusual properties (e.g. Right-to-left override) (c.f. http://www.unicode.org/charts/PDF/U2000.pdf)
 
