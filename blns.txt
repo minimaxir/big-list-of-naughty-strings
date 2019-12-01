@@ -714,3 +714,9 @@ The quick brown fox... [Beeeep]
 Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
 🏳0🌈️
 జ్ఞ‌ా
+
+# Persian special characters
+#
+# This is a four characters string which includes Persian special characters (گچپژ)
+
+گچپژ
