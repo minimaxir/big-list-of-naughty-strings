@@ -18,6 +18,7 @@ FALSE
 None
 hasOwnProperty
 then
+constructor
 \
 \\
 
