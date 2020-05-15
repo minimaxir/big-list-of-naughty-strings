@@ -2,6 +2,7 @@
 #
 #	Strings which may be used elsewhere in code
 
+🐝
 undefined
 undef
 null
