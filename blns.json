@@ -431,6 +431,7 @@
   "1'; DROP TABLE users-- 1", 
   "' OR 1=1 -- 1", 
   "' OR '1'='1", 
+  "'; EXEC sp_MSForEachTable 'DROP TABLE ?'; --",
   " ", 
   "%", 
   "_", 
