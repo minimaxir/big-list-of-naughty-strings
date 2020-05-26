@@ -899,3 +899,12 @@ o+WGlw==
 # This is a four characters string which includes Persian special characters (گچپژ)
 
 2q/ahtm+2pg=
+
+# jinja2 injection
+#
+# first one is supposed to raise "MemoryError" exception
+# second, obviously, prints contents of /etc/passwd
+
+eyUgcHJpbnQgJ3gnICogNjQgKiAxMDI0KiozICV9
+e3sgIiIuX19jbGFzc19fLl9fbXJvX19bMl0uX19zdWJjbGFzc2VzX18oKVs0MF0oIi9ldGMvcGFz
+c3dkIikucmVhZCgpIH19
