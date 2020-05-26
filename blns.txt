@@ -16,9 +16,7 @@ False
 TRUE
 FALSE
 None
-hasOwnProperty
 then
-constructor
 \
 \\
 
@@ -616,6 +614,31 @@ System("ls -al /")
 Kernel.exec("ls -al /")
 Kernel.exit(1)
 %x('ls -al /')
+
+# JavaScript Object properties
+#
+# Names of Object properties - badly written programs will return a truthy value when looking up those keys using square brackets syntax instead of hasOwnProperty
+
+__proto__
+constructor
+prototype
+__defineGetter__
+__defineSetter__
+__lookupGetter__
+__lookupSetter__
+hasOwnProperty
+isPrototypeOf
+propertyIsEnumerable
+toLocaleString
+toString
+valueOf
+
+# JavaScript prototype pollution
+#
+# Strings that may cause Object prototype to be polluted
+
+{"__proto__":{"isAdmin":true,"data":"","list":"","items":"","attributes":"","foo":{},"url":"javascript:alert('pwned')"}}
+{"constructor":{"prototype":{"isAdmin":true,"data":"","list":"","items":"","attributes":"","foo":{},"url":"javascript:alert('pwned')"}}}
 
 #      XXE Injection (XML)
 #
