@@ -220,6 +220,7 @@ var _BlnsBase64Json = []byte(`[
   "KCDNocKwIM2cypYgzaHCsCk=", 
   "8J+YjQ==", 
   "8J+RqfCfj70=", 
+  "8J+RqOKAjfCfprAg8J+RqPCfj7/igI3wn6awIPCfkajigI3wn6axIPCfkajwn4+/4oCN8J+msSDwn6a58J+Pv+KAjeKZgu+4jw==", 
   "8J+RviDwn5mHIPCfkoEg8J+ZhSDwn5mGIPCfmYsg8J+ZjiDwn5mN", 
   "8J+QtSDwn5mIIPCfmYkg8J+Zig==", 
   "4p2k77iPIPCfkpQg8J+SjCDwn5KVIPCfkp4g8J+SkyDwn5KXIPCfkpYg8J+SmCDwn5KdIPCfkp8g", 
@@ -248,6 +249,8 @@ var _BlnsBase64Json = []byte(`[
   "p9mF2ZAg2KfZhNmE2ZHZj9i62Y7YqdmQINmB2ZDZiiDYp9mE2YbZkdmP2LjZj9mF2ZAg2KfZhNmS", 
   "2YLZjtin2KbZkNmF2Y7YqdmQINmI2Y7ZgdmQ2YrZhSDZitmO2K7Zj9i12ZHZjiDYp9mE2KrZkdmO", 
   "2LfZktio2ZDZitmC2Y7Yp9iq2Y8g2KfZhNmS2K3Yp9iz2Y/ZiNio2ZDZitmR2Y7YqdmP2Iw=", 
+  "4Zqb4ZqE4ZqT4ZqQ4ZqL4ZqS4ZqE4ZqA4ZqR4ZqE4ZqC4ZqR4ZqP4ZqF4Zqc", 
+  "4Zqb4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqA4ZqcCg==", 
   "4oCq4oCqdGVzdOKAqg==", 
   "4oCrdGVzdOKAqw==", 
   "4oCpdGVzdOKAqQ==", 
@@ -714,8 +717,15 @@ var _BlnsBase64Json = []byte(`[
   "QnV0IG5vdy4uLhtbMjBDZm9yIG15IGdyZWF0ZXN0IHRyaWNrLi4uG1s4bQ==", 
   "VGhlIHF1aWMICAgICAhrIGJyb3duIGZvBwcHBwcHBwcHBwd4Li4uIFtCZWVlZXBd", 
   "UG93ZXLZhNmP2YTZj9i12ZHYqNmP2YTZj9mE2LXZkdio2Y/Ysdix2Ysg4KWjIOClo2gg4KWjIOCl", 
-  "o+WGlw=="
-]`)
+  "o+WGlw==", 
+  "2q/ahtm+2pg=",
+  "eyUgcHJpbnQgJ3gnICogNjQgKiAxMDI0KiozICV9",
+  "e3sgIiIuX19jbGFzc19fLl9fbXJvX19bMl0uX19zdWJjbGFzc2VzX18oKVs0MF0oIi9ldGMvcGFz",
+  "c3dkIikucmVhZCgpIH19",
+  "dnBucw=="
+]
+
+`)
 
 func BlnsBase64JsonBytes() ([]byte, error) {
 	return _BlnsBase64Json, nil
@@ -727,7 +737,7 @@ func BlnsBase64Json() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "../blns.base64.json", size: 34148, mode: os.FileMode(420), modTime: time.Unix(1548804227, 0)}
+	info := bindataFileInfo{name: "../blns.base64.json", size: 34598, mode: os.FileMode(420), modTime: time.Unix(1591128075, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -749,6 +759,7 @@ var _BlnsJson = []byte(`[
   "FALSE", 
   "None", 
   "hasOwnProperty", 
+  "then", 
   "\\", 
   "\\\\", 
   "0", 
@@ -827,7 +838,7 @@ var _BlnsJson = []byte(`[
   "!@#$%^&*()`+"`"+`~", 
   "\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f", 
   "", 
-  "\t\u000b\f              ​    　", 
+  "\t\u000b\f              ​    　", 
   "­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯`+"\xEF\xBB\xBF"+`￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿", 
   "`+"\xEF\xBB\xBF"+`", 
   "￾", 
@@ -866,6 +877,7 @@ var _BlnsJson = []byte(`[
   "社會科學院語學研究所", 
   "울란바토르", 
   "𠜎𠜱𠝹𠱓𠱸𠲖𠳏", 
+  "𐐜 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐙𐐊𐐡𐐝𐐓/𐐝𐐇𐐗𐐊𐐤𐐔 𐐒𐐋𐐗 𐐒𐐌 𐐜 𐐡𐐀𐐖𐐇𐐤𐐓𐐝 𐐱𐑂 𐑄 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐏𐐆𐐅𐐤𐐆𐐚𐐊𐐡𐐝𐐆𐐓𐐆",
   "表ポあA鷗ŒéＢ逍Üßªąñ丂㐀𠀀", 
   "Ⱥ", 
   "Ⱦ", 
@@ -880,12 +892,15 @@ var _BlnsJson = []byte(`[
   "(ﾉಥ益ಥ）ﾉ`+"\xEF\xBB\xBF"+` ┻━┻", 
   "┬─┬ノ( º _ ºノ)", 
   "( ͡° ͜ʖ ͡°)", 
+  "¯\\_(ツ)_/¯", 
   "😍", 
   "👩🏽", 
+  "👨‍🦰 👨🏿‍🦰 👨‍🦱 👨🏿‍🦱 🦹🏿‍♂️", 
   "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍", 
   "🐵 🙈 🙉 🙊", 
   "❤️ 💔 💌 💕 💞 💓 💗 💖 💘 💝 💟 💜 💛 💚 💙", 
   "✋🏿 💪🏿 👐🏿 🙌🏿 👏🏿 🙏🏿", 
+  "👨‍👩‍👦 👨‍👩‍👧‍👦 👨‍👨‍👦 👩‍👩‍👧 👨‍👦 👨‍👧‍👦 👩‍👦 👩‍👧‍👦", 
   "🚾 🆒 🆓 🆕 🆖 🆗 🆙 🏧", 
   "0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟", 
   "🇺🇸🇷🇺🇸 🇦🇫🇦🇲🇸", 
@@ -897,8 +912,10 @@ var _BlnsJson = []byte(`[
   "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ", 
   "הָיְתָהtestالصفحات التّحول", 
   "﷽", 
-  "ﷺ", 
-  "مُنَاقَشَةُ سُبُلِ اِسْتِخْدَامِ اللُّغَةِ فِي النُّظُمِ الْقَائِمَةِ وَفِيم يَخُصَّ التَّطْبِيقَاتُ الْحاسُوبِيَّةُ، ", 
+  "ﷺ",
+  "مُنَاقَشَةُ سُبُلِ اِسْتِخْدَامِ اللُّغَةِ فِي النُّظُمِ الْقَائِمَةِ وَفِيم يَخُصَّ التَّطْبِيقَاتُ الْحاسُوبِيَّةُ، ", 
+  "᚛ᚄᚓᚐᚋᚒᚄ ᚑᚄᚂᚑᚏᚅ᚜‪‪‪", 
+  "‪‪᚛                 ᚜‪",
   "‪‪test‪", 
   "‫test‫", 
   " test ", 
@@ -1159,6 +1176,7 @@ var _BlnsJson = []byte(`[
   "1'; DROP TABLE users-- 1", 
   "' OR 1=1 -- 1", 
   "' OR '1'='1", 
+  "'; EXEC sp_MSForEachTable 'DROP TABLE ?'; --",
   " ", 
   "%", 
   "_", 
@@ -1235,9 +1253,14 @@ var _BlnsJson = []byte(`[
   "But now...\u001b[20Cfor my greatest trick...\u001b[8m", 
   "The quic\b\b\b\b\b\bk brown fo\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007x... [Beeeep]", 
   "Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗", 
-  "🏳0🌈️", 
-  "జ్ఞ‌ా"
-]`)
+  "🏳0🌈️",
+  "జ్ఞ‌ా",
+  "گچپژ",
+  "{% print 'x' * 64 * 1024**3 %}",
+  "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}",
+  "vpns"
+]
+`)
 
 func BlnsJsonBytes() ([]byte, error) {
 	return _BlnsJson, nil
@@ -1249,7 +1272,7 @@ func BlnsJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "../blns.json", size: 26381, mode: os.FileMode(420), modTime: time.Unix(1548804227, 0)}
+	info := bindataFileInfo{name: "../blns.json", size: 27201, mode: os.FileMode(420), modTime: time.Unix(1591128011, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
