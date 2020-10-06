@@ -1,5 +1,5 @@
 # Big List of Naughty Strings
-The Big List of Naughty Strings is an evolving list of strings which have a high probability of causing issues when used as user-input data. This is intended for use in helping both automated and manual QA testing; useful for whenever your QA engineer [walks into a bar](http://www.sempf.net/post/On-Testing1.aspx).
+The Big List of Naughty Strings is an evolving list of strings which have a high probability of causing issues when used as user-input data. This is intended for use in helping both automated and manual QA testing; useful for whenever your QA engineer [walks into a bar](http://www.sempf.net/post/On-Testing1).
 
 ## Why Test Naughty Strings?
 
@@ -23,6 +23,36 @@ Likewise, please do not send pull requests which compromise *manual usability of
 
 The Big List of Naughty Strings is intended to be used *for software you own and manage*. Some of the Naughty Strings can indicate security vulnerabilities, and as a result using such strings with third-party software may be a crime. The maintainer is not responsible for any negative actions that result from the use of the list.
 
-## Maintainer
+Additionally, the Big List of Naughty Strings is not a fully-comprehensive substitute for formal security/penetration testing for your service.
 
-* Max Woolf ([@minimaxir](https://twitter.com/minimaxir))
+## Library / Packages
+
+Various implementations of the Big List of Naughty Strings have made it to various package managers.  Those are maintained by outside parties, but can be found here:
+
+| Library | Link |
+| ------- | ---- |
+| Node | https://www.npmjs.com/package/blns |
+| Node | https://www.npmjs.com/package/big-list-of-naughty-strings |
+| .NET | https://github.com/SimonCropp/NaughtyStrings |
+| PHP | https://github.com/mattsparks/blns-php |
+| C++  | https://github.com/eliabieri/blnscpp |
+
+Please open a PR to list others.
+
+## Maintainer/Creator
+
+Max Woolf ([@minimaxir](https://twitter.com/minimaxir))
+
+## Social Media Discussions
+
+* June 10, 2015 [Hacker News]: [Show HN: Big List of Naughty Strings for testing user-input data](https://news.ycombinator.com/item?id=10035008)
+* August 17, 2015 [Reddit]: [Big list of naughty strings.](https://www.reddit.com/r/programming/comments/3hdxqx/big_list_of_naughty_strings/)
+* February 9, 2016 [Reddit]: [Big List of Naughty Strings](https://www.reddit.com/r/webdev/comments/44wc5b/big_list_of_naughty_strings/)
+* January 15, 2017 [Hacker News]: [Naughty Strings: A list of strings likely to cause issues as user-input data](https://news.ycombinator.com/item?id=13406119)
+* January 16, 2017 [Reddit]: [Naughty Strings: A list of strings likely to cause issues as user-input data](https://www.reddit.com/r/programming/comments/5o9inb/naughty_strings_a_list_of_strings_likely_to_cause/)
+* November 16, 2018 [Hacker News]: [Big List of Naughty Strings](https://news.ycombinator.com/item?id=18466787)
+* November 16, 2018 [Reddit]: [Naughty Strings - A list of strings which have a high probability of causing issues when used as user-input data](https://www.reddit.com/r/programming/comments/9xla2j/naughty_strings_a_list_of_strings_which_have_a/)
+
+## License
+
+MIT
