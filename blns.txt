@@ -740,3 +740,11 @@ Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
 
 {% print 'x' * 64 * 1024**3 %}
 {{ "".__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}
+
+# EICAR "anti-virus test string"
+#
+# A surprising amount of systems will fail when presented with the EICAR test
+# string, which is used to "test" anti-virus engines as working (i.e., as
+# opposed to downloading malware samples and seeing if they're detected)
+
+X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
