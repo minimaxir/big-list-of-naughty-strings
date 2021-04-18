@@ -705,6 +705,11 @@ Tyson Gay
 Dick Van Dyke
 basement
 
+# Place names with strange characters in them
+#
+# Western placenames with characters outside [a-zA-Z0-9]
+Westward Ho!
+
 #	Human injection
 #
 #	Strings which may cause human to reinterpret worldview
