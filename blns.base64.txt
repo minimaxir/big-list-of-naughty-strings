@@ -908,3 +908,7 @@ o+WGlw==
 eyUgcHJpbnQgJ3gnICogNjQgKiAxMDI0KiozICV9
 e3sgIiIuX19jbGFzc19fLl9fbXJvX19bMl0uX19zdWJjbGFzc2VzX18oKVs0MF0oIi9ldGMvcGFz
 c3dkIikucmVhZCgpIH19
+
+# Due to CVE-2019-19781 many Citrix gateways were configured to forbid requests with paths containing '/vpns/'
+
+dnBucw==

