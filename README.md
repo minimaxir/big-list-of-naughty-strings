@@ -36,6 +36,7 @@ Various implementations of the Big List of Naughty Strings have made it to vario
 | .NET | https://github.com/SimonCropp/NaughtyStrings |
 | PHP | https://github.com/mattsparks/blns-php |
 | C++  | https://github.com/eliabieri/blnscpp |
+| Java/Kotlin | https://github.com/mattyb678/blns-kotlin |
 
 Please open a PR to list others.
 
