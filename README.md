@@ -33,6 +33,7 @@ Various implementations of the Big List of Naughty Strings have made it to vario
 | ------- | ---- |
 | Node | https://www.npmjs.com/package/blns |
 | Node | https://www.npmjs.com/package/big-list-of-naughty-strings |
+| Python | https://pypi.org/project/naughty-string-validator/ |
 | .NET | https://github.com/SimonCropp/NaughtyStrings |
 | PHP | https://github.com/mattsparks/blns-php |
 | C++  | https://github.com/eliabieri/blnscpp |
