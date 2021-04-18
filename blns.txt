@@ -16,6 +16,7 @@ False
 TRUE
 FALSE
 None
+Nothing
 hasOwnProperty
 then
 constructor
@@ -704,6 +705,9 @@ classic
 Tyson Gay
 Dick Van Dyke
 basement
+Nwankwo Kanu
+Uranus
+Twatt
 
 #	Human injection
 #
