@@ -631,6 +631,8 @@ $HOME
 $ENV{'HOME'}
 %d
 %s%s%s%s%s
+%p%s%s%s%s%n
+%secretclub%power
 {0}
 %*.*s
 %@
