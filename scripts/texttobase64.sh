@@ -8,7 +8,8 @@ do
     firstChar="${line:0:1}"
     if [[ "$firstChar" != "$commentChar" ]] && [[ -n "$firstChar" ]]
     then
-		echo -n "$line" | base64
+		echo -n "$line" | base64 -w 0
+		echo
 	else
 		echo "$line"
 	fi

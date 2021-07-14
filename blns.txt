@@ -740,3 +740,13 @@ Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
 
 {% print 'x' * 64 * 1024**3 %}
 {{ "".__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}
+
+# Hàn Zì or ASCII, depending on encoding
+#
+# These strings make no sense in Chinese, but if encoded as UTF-16, the bytes
+# are valid and meaningful ASCII. See https://en.wikipedia.org/wiki/Bush_hid_the_facts .
+
+naku dei jungo valsi These are not Chinese words
+慮畫搠楥樠湵潧瘠污楳吠敨敳愠敲渠瑯䌠楨敮敳眠牯獤
+These are Chinese words not dei jungo valsi naku
+周敳攠慲攠䍨楮敳攠睯牤猠湯琠摥椠橵湧漠癡汳椠湡歵
