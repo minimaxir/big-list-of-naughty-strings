@@ -338,6 +338,13 @@ Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮
 𝚃𝚑𝚎 𝚚𝚞𝚒𝚌𝚔 𝚋𝚛𝚘𝚠𝚗 𝚏𝚘𝚡 𝚓𝚞𝚖𝚙𝚜 𝚘𝚟𝚎𝚛 𝚝𝚑𝚎 𝚕𝚊𝚣𝚢 𝚍𝚘𝚐
 ⒯⒣⒠ ⒬⒰⒤⒞⒦ ⒝⒭⒪⒲⒩ ⒡⒪⒳ ⒥⒰⒨⒫⒮ ⒪⒱⒠⒭ ⒯⒣⒠ ⒧⒜⒵⒴ ⒟⒪⒢
 
+#	UI Issues
+#
+#       Strings that can cause design or UI issues
+
+The quick brownfoxjumpsoverthelazydogandhasareallylongwordthatwillprobablybreakthelayoutthequickbrownfoxjumpsoverthelazy dog.
+This string\nhas multiple\n\nnewlines. Textarea inputs can serialize text this way.
+
 #	Script Injection
 #
 #	Strings which attempt to invoke a benign script injection; shows vulnerability to XSS
