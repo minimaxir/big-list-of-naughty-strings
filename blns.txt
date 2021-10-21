@@ -231,6 +231,12 @@ INF
 Ⱥ
 Ⱦ
 
+#	Changing length when uppercased
+#
+#	The German character 'ß' becomes 'SS' when upper-cased, which becomes 'ss' when lower-cased
+
+ß
+
 #	Japanese Emoticons
 #
 #	Strings which consists of Japanese-style emoticons which are popular on the web
