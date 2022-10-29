@@ -740,3 +740,14 @@ Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
 
 {% print 'x' * 64 * 1024**3 %}
 {{ "".__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}
+
+
+# Car Headunit Crashing
+#
+# Strings which have crashed car headunits in Mazdas, BMWs, and other cars
+#
+# Mazda/Nissans https://99percentinvisible.org/episode/the-roman-mars-mazda-virus/
+# BMW https://www.opencve.io/cve/CVE-2017-9212
+
+99% Invisible
+%x.%x.%x.%x
