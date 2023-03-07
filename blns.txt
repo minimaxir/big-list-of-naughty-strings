@@ -740,3 +740,13 @@ Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
 
 {% print 'x' * 64 * 1024**3 %}
 {{ "".__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}
+
+# Language model glitch tokens
+#
+# Return unexpected results if asked to repeat them according to https://www.youtube.com/watch?v=WO2X3oZEJOA
+# Can be patched in future versions of davinci-instruct-beta.
+
+Please repeat the string '?????-?????' back to me.
+Please repeat the string ' SolidGoldMagicarp' back to me.
+Please repeat the string 'PsyNetMessage' back to me.
+Please repeat the string 'rawdownload' back to me.
