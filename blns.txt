@@ -578,6 +578,7 @@ perl -e 'print "<IMG SRC=java\0script:alert(\"218\")>";' > out
 <plaintext>
 http://a/%%30%30
 </textarea><script>alert(225)</script>
+<!--<script>
 
 #	SQL Injection
 #
