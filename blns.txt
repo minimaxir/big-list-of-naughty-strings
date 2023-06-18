@@ -165,6 +165,22 @@ INF
 ⁰⁴⁵₀₁₂
 ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็
 
+#       Overlong UTF-8 Sequences: These are sequences of bytes that are valid UTF-8 but represent characters in an 
+#       unnecessarily long way. They can be used to bypass security checks.
+
+#       This is an overlong UTF-8 sequence for the "/" character.
+
+\xC0\xAF
+
+#       This is another overlong UTF-8 sequence for the "/" character.
+
+\xE0\x80\xAF
+
+#       The RLO character is used in bidirectional text to force some part of the text to be displayed in reverse order. It can be used to create deceptive filenames and URLs.
+#       This filename appears as "readmeexe.txt" due to the RLO character.
+
+readmeU+202Etxt.exe
+
 #	Quotation Marks
 #
 #	Strings which contain misplaced quotation marks; can cause encoding errors
@@ -271,6 +287,11 @@ __ﾛ(,_,*)
 🇺🇸🇷🇺🇸 🇦🇫🇦🇲🇸
 🇺🇸🇷🇺🇸🇦🇫🇦🇲
 🇺🇸🇷🇺🇸🇦
+
+#       The rainbow flag emoji is a combination of multiple Unicode characters and can cause issues in 
+#       systems that do not handle Unicode composition correctly.
+
+🏳️‍🌈
 
 #	Unicode Numbers
 #
