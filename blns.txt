@@ -740,3 +740,8 @@ Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
 
 {% print 'x' * 64 * 1024**3 %}
 {{ "".__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}
+
+
+# Long place names. Useful for testing geolocation services.
+# Did you know there is a train station based in Wales, UK with the longest place name in the World?
+Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch
