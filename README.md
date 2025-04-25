@@ -29,13 +29,17 @@ Additionally, the Big List of Naughty Strings is not a fully-comprehensive subst
 
 Various implementations of the Big List of Naughty Strings have made it to various package managers.  Those are maintained by outside parties, but can be found here:
 
-| Library | Link |
-| ------- | ---- |
-| Node | https://www.npmjs.com/package/blns |
-| Node | https://www.npmjs.com/package/big-list-of-naughty-strings |
-| .NET | https://github.com/SimonCropp/NaughtyStrings |
-| PHP | https://github.com/mattsparks/blns-php |
-| C++  | https://github.com/eliabieri/blnscpp |
+| Library     | Link                                                      |
+| -------     | ----                                                      |
+| Node        | https://www.npmjs.com/package/blns                        |
+| Node        | https://www.npmjs.com/package/big-list-of-naughty-strings |
+| Python      | https://pypi.org/project/naughty-string-validator/        |
+| .NET        | https://github.com/SimonCropp/NaughtyStrings              |
+| PHP         | https://github.com/mattsparks/blns-php                    |
+| C++         | https://github.com/eliabieri/blnscpp                      |
+| Java/Kotlin | https://github.com/mattyb678/blns-kotlin                  |
+| Java        | https://github.com/suderio/blns                           |
+| Rust        | https://github.com/mcarton/rust-naughty-strings           |
 
 Please open a PR to list others.
 
