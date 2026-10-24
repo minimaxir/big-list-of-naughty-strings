@@ -800,3 +800,15 @@ ${java:version}
 [$ne]=1
 username[$ne]=blns&password[$ne]=blns
 '; return true; var blns='
+
+#	CRLF Injection
+#
+#	Strings which can inject HTTP headers or log lines when URL-decoded. blns.txt
+#	cannot contain raw line breaks, so they are percent-encoded
+
+%0d%0aSet-Cookie:%20blns=fail
+%0D%0AX-BLNS:%20fail
+%0aX-BLNS:%20fail
+%0d%0a%0d%0a<script>alert(1)</script>
+%E5%98%8A%E5%98%8DX-BLNS:%20fail
+嘊嘍X-BLNS: fail
