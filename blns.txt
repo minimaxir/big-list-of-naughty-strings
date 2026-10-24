@@ -940,3 +940,19 @@ pаypal.com
 Ꭺdmin
 admin­
 admin​
+
+#	Spreadsheet Date Coercion
+#
+#	Strings which spreadsheet applications silently convert into dates or numbers
+#	on import, e.g. human gene symbols (c.f. https://doi.org/10.1186/s13059-016-1044-7)
+
+SEPT1
+SEPT2
+MARCH1
+MARCH5
+DEC1
+OCT4
+1-2
+2310009E13
+00123
+1234567890123456789
