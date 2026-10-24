@@ -831,3 +831,20 @@ http://017700000001/
 http://example.com@127.0.0.1/
 gopher://127.0.0.1:6379/_INFO
 dict://127.0.0.1:11211/stats
+
+#	Template Injection
+#
+#	Strings which evaluate to 49 in various template engines and expression
+#	languages if rendered unsanitized, and a polyglot which makes most of them
+#	fail (c.f. https://portswigger.net/research/server-side-template-injection)
+
+{{7*7}}
+${7*7}
+<%= 7*7 %>
+${{7*7}}
+@(7*7)
+*{7*7}
+[[${7*7}]]
+{{=7*7}}
+blns#{7*7}
+${{<%[%'"}}%\.
