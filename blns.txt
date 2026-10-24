@@ -888,3 +888,19 @@ yes
 12:30:00
 2001-12-14
 <<
+
+#	Unicode Case Mapping
+#
+#	Strings whose length changes under case mapping or case folding, or which
+#	map differently depending on position or locale
+
+İstanbul
+DİYARBAKIR
+ıi
+Straße
+ẞ
+ŉ
+ΐ
+ǅǈǋ
+ΌΣΟΣ
+ﬀﬃﬄﬅﬆ
