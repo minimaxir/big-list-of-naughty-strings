@@ -681,6 +681,15 @@ LPT3
 COM2
 COM3
 COM4
+CON.txt
+nul.tar.gz
+COM¹
+LPT²
+CONIN$
+CONOUT$
+blns.
+blns.txt::$DATA
+C:blns
 
 #   IRC specific strings
 #
