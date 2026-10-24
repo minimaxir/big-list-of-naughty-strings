@@ -904,3 +904,24 @@ Straße
 ǅǈǋ
 ΌΣΟΣ
 ﬀﬃﬄﬅﬆ
+
+#	Unicode Normalization
+#
+#	Strings which look identical to others but differ in their code points, or
+#	which change under NFC/NFD/NFKC/NFKD normalization
+#	(c.f. https://unicode.org/reports/tr15/)
+
+café
+café
+Å
+Å
+Å
+K
+Ω
+ậ
+ậ
+ǆ
+Ⅻ
+ａｄｍｉｎ
+ⓐⓓⓜⓘⓝ
+＜script＞alert(1)＜/script＞
