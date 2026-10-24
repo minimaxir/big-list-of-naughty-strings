@@ -859,3 +859,32 @@ ${{<%[%'"}}%\.
 admin)(&)
 admin)(!(&(1=0)
 blns)(cn=*)
+
+#	YAML Implicit Typing
+#
+#	Strings which YAML 1.1 parsers resolve to booleans, null, numbers or dates
+#	instead of strings when unquoted, e.g. the country code of Norway
+#	(c.f. https://hitchdev.com/strictyaml/why/implicit-typing-removed/)
+
+NO
+no
+No
+off
+OFF
+on
+y
+Y
+n
+yes
+~
+0o17
+017
+0x1F
+1e3
+1_000
+.inf
+-.Inf
+.NaN
+12:30:00
+2001-12-14
+<<
