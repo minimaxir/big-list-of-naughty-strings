@@ -812,3 +812,22 @@ username[$ne]=blns&password[$ne]=blns
 %0d%0a%0d%0a<script>alert(1)</script>
 %E5%98%8A%E5%98%8DX-BLNS:%20fail
 嘊嘍X-BLNS: fail
+
+#	Server-Side Request Forgery
+#
+#	URLs which point at internal services or cloud metadata endpoints, and which
+#	may be requested if a server fetches user-supplied URLs
+
+http://169.254.169.254/latest/meta-data/
+http://[fd00:ec2::254]/latest/meta-data/
+http://metadata.google.internal/computeMetadata/v1/
+http://localhost/
+http://127.1/
+http://0/
+http://[::]/
+http://0x7f000001/
+http://2130706433/
+http://017700000001/
+http://example.com@127.0.0.1/
+gopher://127.0.0.1:6379/_INFO
+dict://127.0.0.1:11211/stats
