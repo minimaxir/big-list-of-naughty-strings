@@ -925,3 +925,18 @@ ậ
 ａｄｍｉｎ
 ⓐⓓⓜⓘⓝ
 ＜script＞alert(1)＜/script＞
+
+#	Homoglyphs
+#
+#	Strings which render like common ASCII words or domains but contain characters
+#	from other scripts or invisible characters (c.f. https://www.unicode.org/reports/tr39/)
+
+аpple.com
+аррӏе.com
+xn--80ak6aa92e.com
+pаypal.com
+ɡoogle.com
+аdmin
+Ꭺdmin
+admin­
+admin​
