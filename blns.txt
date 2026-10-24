@@ -643,6 +643,16 @@ File:///
 
 ../../../../../../../../../../../etc/passwd%00
 ../../../../../../../../../../../etc/hosts
+..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc%2fpasswd
+%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2fetc%2fpasswd
+%252e%252e%252f%252e%252e%252f%252e%252e%252fetc%252fpasswd
+..%c0%af..%c0%af..%c0%af..%c0%afetc%c0%afpasswd
+....//....//....//....//....//etc/passwd
+..\..\..\..\..\..\..\..\windows\win.ini
+..%5c..%5c..%5c..%5c..%5c..%5cwindows%5cwin.ini
+/etc/passwd
+file:///etc/passwd
+C:\Windows\win.ini
 
 #	Known CVEs and Vulnerabilities
 #
@@ -671,6 +681,15 @@ LPT3
 COM2
 COM3
 COM4
+CON.txt
+nul.tar.gz
+COM¹
+LPT²
+CONIN$
+CONOUT$
+blns.
+blns.txt::$DATA
+C:blns
 
 #   IRC specific strings
 #
@@ -740,3 +759,200 @@ Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
 
 {% print 'x' * 64 * 1024**3 %}
 {{ "".__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}
+
+#	Log4j Lookups
+#
+#	Strings which Apache Log4j 2 expands when they are logged, including the JNDI
+#	lookups of Log4Shell (CVE-2021-44228, CVE-2021-45046) and obfuscated variants
+
+${jndi:ldap://127.0.0.1/blns}
+${jndi:dns://127.0.0.1/blns}
+${jndi:rmi://127.0.0.1/blns}
+${jndi:ldap://127.0.0.1#example.com/blns}
+${${lower:j}ndi:${lower:l}dap://127.0.0.1/blns}
+${${::-j}${::-n}${::-d}${::-i}:ldap://127.0.0.1/blns}
+${${env:BLNS:-j}ndi${env:BLNS:-:}${env:BLNS:-l}dap${env:BLNS:-:}//127.0.0.1/blns}
+${env:HOME}
+${java:version}
+
+#	CSV Injection
+#
+#	Strings which spreadsheet applications evaluate as formulas when a CSV export
+#	is opened (c.f. https://owasp.org/www-community/attacks/CSV_Injection)
+
+=1+1
++1+1
+-1+1
+@SUM(1+1)
+=HYPERLINK("https://example.com","Click me")
+=cmd|' /C calc'!A0
+=IMPORTXML("https://example.com","//a")
+
+#	NoSQL Injection
+#
+#	Strings which can change the meaning of a MongoDB-style query if JSON or query
+#	string input is not type-checked
+
+{"$ne": null}
+{"$gt": ""}
+{"$regex": ".*"}
+{"$where": "sleep(1000)"}
+[$ne]=1
+username[$ne]=blns&password[$ne]=blns
+'; return true; var blns='
+
+#	CRLF Injection
+#
+#	Strings which can inject HTTP headers or log lines when URL-decoded. blns.txt
+#	cannot contain raw line breaks, so they are percent-encoded
+
+%0d%0aSet-Cookie:%20blns=fail
+%0D%0AX-BLNS:%20fail
+%0aX-BLNS:%20fail
+%0d%0a%0d%0a<script>alert(1)</script>
+%E5%98%8A%E5%98%8DX-BLNS:%20fail
+嘊嘍X-BLNS: fail
+
+#	Server-Side Request Forgery
+#
+#	URLs which point at internal services or cloud metadata endpoints, and which
+#	may be requested if a server fetches user-supplied URLs
+
+http://169.254.169.254/latest/meta-data/
+http://[fd00:ec2::254]/latest/meta-data/
+http://metadata.google.internal/computeMetadata/v1/
+http://localhost/
+http://127.1/
+http://0/
+http://[::]/
+http://0x7f000001/
+http://2130706433/
+http://017700000001/
+http://example.com@127.0.0.1/
+gopher://127.0.0.1:6379/_INFO
+dict://127.0.0.1:11211/stats
+
+#	Template Injection
+#
+#	Strings which evaluate to 49 in various template engines and expression
+#	languages if rendered unsanitized, and a polyglot which makes most of them
+#	fail (c.f. https://portswigger.net/research/server-side-template-injection)
+
+{{7*7}}
+${7*7}
+<%= 7*7 %>
+${{7*7}}
+@(7*7)
+*{7*7}
+[[${7*7}]]
+{{=7*7}}
+blns#{7*7}
+${{<%[%'"}}%\.
+
+#	LDAP Injection
+#
+#	Strings which can change the meaning of an LDAP search filter if inputs are
+#	not escaped (c.f. https://www.rfc-editor.org/rfc/rfc4515)
+
+*)(uid=*))(|(uid=*
+*)(|(objectClass=*)
+admin)(&)
+admin)(!(&(1=0)
+blns)(cn=*)
+
+#	YAML Implicit Typing
+#
+#	Strings which YAML 1.1 parsers resolve to booleans, null, numbers or dates
+#	instead of strings when unquoted, e.g. the country code of Norway
+#	(c.f. https://hitchdev.com/strictyaml/why/implicit-typing-removed/)
+
+NO
+no
+No
+off
+OFF
+on
+y
+Y
+n
+yes
+~
+0o17
+017
+0x1F
+1e3
+1_000
+.inf
+-.Inf
+.NaN
+12:30:00
+2001-12-14
+<<
+
+#	Unicode Case Mapping
+#
+#	Strings whose length changes under case mapping or case folding, or which
+#	map differently depending on position or locale
+
+İstanbul
+DİYARBAKIR
+ıi
+Straße
+ẞ
+ŉ
+ΐ
+ǅǈǋ
+ΌΣΟΣ
+ﬀﬃﬄﬅﬆ
+
+#	Unicode Normalization
+#
+#	Strings which look identical to others but differ in their code points, or
+#	which change under NFC/NFD/NFKC/NFKD normalization
+#	(c.f. https://unicode.org/reports/tr15/)
+
+café
+café
+Å
+Å
+Å
+K
+Ω
+ậ
+ậ
+ǆ
+Ⅻ
+ａｄｍｉｎ
+ⓐⓓⓜⓘⓝ
+＜script＞alert(1)＜/script＞
+
+#	Homoglyphs
+#
+#	Strings which render like common ASCII words or domains but contain characters
+#	from other scripts or invisible characters (c.f. https://www.unicode.org/reports/tr39/)
+
+аpple.com
+аррӏе.com
+xn--80ak6aa92e.com
+pаypal.com
+ɡoogle.com
+аdmin
+Ꭺdmin
+admin­
+admin​
+
+#	Spreadsheet Date Coercion
+#
+#	Strings which spreadsheet applications silently convert into dates or numbers
+#	on import, e.g. human gene symbols (c.f. https://doi.org/10.1186/s13059-016-1044-7)
+
+SEPT1
+SEPT2
+MARCH1
+MARCH5
+DEC1
+OCT4
+1-2
+2310009E13
+00123
+1234567890123456789
