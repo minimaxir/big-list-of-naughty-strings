@@ -787,3 +787,16 @@ ${java:version}
 =HYPERLINK("https://example.com","Click me")
 =cmd|' /C calc'!A0
 =IMPORTXML("https://example.com","//a")
+
+#	NoSQL Injection
+#
+#	Strings which can change the meaning of a MongoDB-style query if JSON or query
+#	string input is not type-checked
+
+{"$ne": null}
+{"$gt": ""}
+{"$regex": ".*"}
+{"$where": "sleep(1000)"}
+[$ne]=1
+username[$ne]=blns&password[$ne]=blns
+'; return true; var blns='
