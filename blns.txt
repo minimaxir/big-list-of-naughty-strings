@@ -774,3 +774,16 @@ ${${::-j}${::-n}${::-d}${::-i}:ldap://127.0.0.1/blns}
 ${${env:BLNS:-j}ndi${env:BLNS:-:}${env:BLNS:-l}dap${env:BLNS:-:}//127.0.0.1/blns}
 ${env:HOME}
 ${java:version}
+
+#	CSV Injection
+#
+#	Strings which spreadsheet applications evaluate as formulas when a CSV export
+#	is opened (c.f. https://owasp.org/www-community/attacks/CSV_Injection)
+
+=1+1
++1+1
+-1+1
+@SUM(1+1)
+=HYPERLINK("https://example.com","Click me")
+=cmd|' /C calc'!A0
+=IMPORTXML("https://example.com","//a")
