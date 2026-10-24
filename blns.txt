@@ -848,3 +848,14 @@ ${{7*7}}
 {{=7*7}}
 blns#{7*7}
 ${{<%[%'"}}%\.
+
+#	LDAP Injection
+#
+#	Strings which can change the meaning of an LDAP search filter if inputs are
+#	not escaped (c.f. https://www.rfc-editor.org/rfc/rfc4515)
+
+*)(uid=*))(|(uid=*
+*)(|(objectClass=*)
+admin)(&)
+admin)(!(&(1=0)
+blns)(cn=*)
